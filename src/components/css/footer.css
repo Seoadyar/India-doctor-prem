@@ -105,7 +105,7 @@ justify-content:space-around;
         font-weight: 500;
     }
     .add_1 p:nth-child(2) {
-        margin-bottom: 28px;
+        margin-bottom: 5px;
         text-align: center;
     }
     .footer_socialm_cont {
@@ -120,6 +120,10 @@ justify-content:space-around;
         text-decoration: none;
         color: #bcbcbc;
         margin-top: -10px;
+    }
+    .foo_anch_link2 {
+        position: relative;
+        top: -9px;
     }
     .add_1 {
         width: 100%;
@@ -137,7 +141,7 @@ justify-content:space-around;
         color: #ffffff9c;
         font-size: 16px;
         margin: 0;
-        margin-top:70px;
+        margin-top: 47px;
         position: relative;
     }
     .copy_right_cont {
