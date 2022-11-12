@@ -91,7 +91,7 @@ justify-content:space-around;
 
 
 
-@media (max-width:412px) {
+@media (max-width:512px) {
     .add_main_cont {
         display: flex;
         justify-content: center;

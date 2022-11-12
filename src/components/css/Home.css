@@ -553,8 +553,8 @@ hospital images */
 
 }
 
-/*--------- 411px  responsive ------------------------------- */
-@media(max-width:412px){
+/*--------- 511px  responsive ------------------------------- */
+@media(max-width:512px){
     .vlog_main_slider_cont {
         display: flex;
         justify-content: space-between;
