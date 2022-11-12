@@ -120,12 +120,14 @@ slider */
     width: 400px;
     height: 100px;
     display: flex;
-    background-color: #f3f3f3;
+    background-color: #f3f3f3b8;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
+    color: black;
+    font-weight: 600;
 }
 
 .abt_card img {
@@ -164,11 +166,12 @@ slider */
 .specs_title h1 {
     text-align: center;
     color: #f57825;
+    font-weight: bold;
 }
 
 .specs_title p {
     width: 199px;
-    border-bottom: 3px solid #f57825;
+    /* border-bottom: 3px solid #f57825; */
     margin-top: 5px;
 }
 
@@ -224,10 +227,11 @@ slider */
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #f3f3f3;
+    background-color: #237d9e;
     height: 501px;
     padding: 50px;
     margin-top: -17px;
+   
 }
 
 .main_y_m {
@@ -241,9 +245,9 @@ slider */
 }
 
 .vlog_1 {
-    height:370px;
-    width:100%;
-    border: 12px solid white;
+    height: 370px;
+    width: 100%;
+    border: 4px solid white;
 }
 
 .vlog_2 {
@@ -295,39 +299,98 @@ slider */
 
 
 
-/* Testimonials */
 
+
+
+
+/* 
+hospital images */
+
+.scrol_img_cont{
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    z-index: -3;
+    margin-top: 50px;
+}
+
+.scrol_img_main_cont{
+    width: 100%;
+    height:350px;
+}
+
+
+.scrol_img_main_cont img{
+    width: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  
+}
+
+
+
+
+
+
+
+
+/* Testimonials */
+.tes1 {
+    margin-top: 84px;
+    margin-bottom: -51px;
+}
 .testi_cont {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    background-color: #d3d3d3;
-    padding: 80px 0;
+    margin-top: 62px;
+    /* padding: 80px 0; */
+    /* width: 80%; */
+    /* margin-bottom: 67px; */
+    background-color: #f6f6f6;
+    padding-bottom: 30px;
+}                                   
+.testi_content img{
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border:2px solid #ff9800;
 }
 
 .testi_main_cont {
-    width: 85%;
-    background-color: black;
+    width: 80%;
+   
     border-radius: 7px;
     color: white;
-    padding: 26px 0px 0 60px;
+    padding: 30px  5px 0px 30px;
+    /* border: 1px solid #d0d0d0; */
+    position: relative;
 }
 
 .testi_content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.testi_content p {
+.cli_reviewc_content {
     width: 90%;
     text-align: justify;
     font-size: 19px;
-    color: #d3d3d3;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 0;
 }
 
 .testi_title {
     font-size: 31px;
-    font-weight: 500;
+    font-weight: bold;
+    color: black;
+}
+.star_cont{
+    margin-top: 10px;
 }
 
 .cli_txt {
@@ -337,6 +400,50 @@ slider */
 
 .cli_name {
     font-size: 18px;
+    font-size: 23px;
+    color: #2c2c2c;
+    font-weight: 600;
+}
+.swiper-container{
+    overflow: hidden;
+}
+.slide_btn_main{
+    display: flex;
+    justify-content: center;
+}
+.slide_btn{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.slide_btn button {
+    border-radius: 6px;
+    width: 100px;
+    padding: 8px 32px;
+    margin: 0 24px;
+    border: transparent;
+    background-color: orange;
+    color: black;
+    font-weight: 600;
+}
+.carousel-indicators {
+   display: none !important;
+}
+
+.carousel-control-next-icon::after {
+    content: "";
+    font-weight: bold;
+    font-family: "Font Awesome 6 Pro","Font Awesome 6 Free";
+    font-size: 1.7rem;
+    color: #ff9800;
+    margin-left: 100px;
+}
+
+.carousel-control-prev-icon::after {
+    color: #ff9800;
+   position: relative;
+   right: 100px;
+   font-weight: bold;
 }
 
 
