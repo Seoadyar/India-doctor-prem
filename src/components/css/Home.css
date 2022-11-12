@@ -1,4 +1,8 @@
 /* ph number */
+.nav_ph_icon{
+        margin-top: -3px;
+        margin-right: 4px;
+}
 .ph_cont {
     display: flex;
     justify-content: space-between;
@@ -34,10 +38,12 @@
 
 
 /* navbar home */
-.nav_home_cont {}
-
+ 
 .nav_main_home {
     margin-top: 10px;
+}
+.container, .container-sm {
+    max-width:100% !important;
 }
 
 /* 
@@ -107,7 +113,7 @@ slider */
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .abt_card {
@@ -151,7 +157,7 @@ slider */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: center;
 }
 
@@ -189,13 +195,12 @@ slider */
 }
 
 .s_icon_cont p {
-    width: 136px;
+    width: 175px;
     margin-top: 35px;
-    font-size: 17px;
+    font-size: 20px;
     color: #007b80;
-    font-weight: 500;
+    font-weight: 600;
 }
-
 
 
 
@@ -204,7 +209,7 @@ slider */
 
 /* vlog */
 .vlog {
-    margin-top: 100px;
+    margin-top: 44px;
     margin-bottom: 30px;
 }
 
@@ -220,11 +225,10 @@ slider */
     align-items: center;
     width: 100%;
     background-color: #f3f3f3;
-    height: 570px;
+    height: 501px;
     padding: 50px;
-
+    margin-top: -17px;
 }
-
 
 .main_y_m {
     width: 100%;
@@ -333,4 +337,80 @@ slider */
 
 .cli_name {
     font-size: 18px;
+}
+
+
+
+/*--------- tab responsive ------------------------------- */
+@media (max-width:700px) {
+    .navbar>.container{
+        width: 100% !important;
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .counts_main_cont {
+        width: 87%;
+        height: 191px;
+        background-color: #237d9e;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -31px;
+        border-radius: 7px;
+        box-shadow: 1px 6px 17px 0px #8e8e8e;
+    }
+    .y_videos {
+        width: 147px;
+        height: 150px;
+        border: 10px solid #f3f3f3;
+    }
+    .vlog_1 {
+        height: 370px;
+        width: 100%;
+        border: 12px solid white;
+        margin-right: 13px;
+    }
+    .vlog_2 p {
+        font-size: 10px;
+        font-weight: bold;
+        background-color: black;
+        border-radius: 25px;
+        color: white !important;
+        padding: 7px 38px;
+        display: inline-block;
+    }
+    .vlog_2 {
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 118% !important; */
+        width: 137px;
+    }
+    .vlog_1_main {
+        display: flex;
+        margin-top: 27px;
+    }
+    .vlog_main_slider_cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #f3f3f3;
+        height: 570px;
+        padding: 0px;
+    }
+    .vlog_2_sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        margin: 10px 50px;
+        height: 307px;
+        margin-top: -8px;
+    }
+    
+
 }

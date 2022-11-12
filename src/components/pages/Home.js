@@ -5,6 +5,7 @@ import banner from '../Assests/banner.mp4'
 import WhyChooseUsSquare from '../Assests/WhyChooseUsSquare.jpg'
 import s_icons from '../Assests/s_icons.png'
 import { TbWorld } from 'react-icons/tb'
+import {HiPhone} from 'react-icons/hi'
 import CountUp from "react-countup";
 
 // swiper js
@@ -24,8 +25,7 @@ function Home() {
             {/* ph number */}
             <div className="ph_cont">
                 <div className="ph_left">
-                    <p>+91 9360375911</p>
-                    <p>| +91 906035977 |</p>
+                    <p><HiPhone className='nav_ph_icon'/>+91 9360375911</p>
                     <p>karthik5112001@gmail.com</p>
                 </div>
                 <div className="ph_right">
@@ -118,7 +118,7 @@ function Home() {
 
             {/* vlog */}
             <div className="specs_title vlog">
-                <h1>Vlog</h1>
+                <h1>Know more</h1>
                 <p></p>
             </div>
 
