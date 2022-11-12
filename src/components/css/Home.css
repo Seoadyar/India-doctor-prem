@@ -72,7 +72,7 @@ slider */
     justify-content: space-around;
     margin-top: -31px;
     border-radius: 7px;
-    box-shadow: 1px 6px 17px 0px #8e8e8e;
+    
 
 }
 
@@ -459,14 +459,14 @@ hospital images */
     }
     .counts_main_cont {
         width: 87%;
-        height: 191px;
+        height: 159px;
         background-color: #237d9e;
         color: #ffffff;
         display: flex;
         justify-content: space-around;
-        margin-top: -31px;
+        margin-top: -90px;
         border-radius: 7px;
-        box-shadow: 1px 6px 17px 0px #8e8e8e;
+        box-shadow: 0;
     }
     .y_videos {
         width: 147px;
@@ -518,6 +518,86 @@ hospital images */
         height: 307px;
         margin-top: -8px;
     }
+    .counts_1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        text-align: center;
+    }
+    .counts_1 p:first-child {
+        font-size: 49px;
+        font-weight: bold;
+        color: #f57825;
+    }
+
+
+    .specs_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -51px;
+        justify-content: center;
+    }
+    .vlog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 38px;
+        justify-content: center;
+    }
+    .tes1{
+        margin-top: 57px;
+    }
+
     
 
 }
+
+/*--------- 411px  responsive ------------------------------- */
+@media(max-width:412px){
+    .vlog_main_slider_cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #f3f3f3;
+        height: 570px;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .spc_ori_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 39px;
+        justify-content: center;
+    }
+    .s_icon_cont img {
+        border-radius: 50%;
+        width: 80px;
+    }
+    .s_icon_cont {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 121px;
+        height: 134px;
+        margin: 1px;
+    }
+    .s_icon_cont p {
+        width: 91px;
+        margin-top: 12px;
+        font-size: 13px;
+        color: #007b80;
+        font-weight: 600;
+    }
+    .specs_main_cont {
+        width: 100%;
+    }
+    
+}
+
+
+
+

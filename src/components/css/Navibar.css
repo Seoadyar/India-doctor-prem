@@ -15,9 +15,7 @@
     font-weight: 500;
     margin-left: -15px;
 }
-.bg-light {
-    background-color: white !important;
-}
+ 
 /* button focus turn off from bootsrap */
 .navbar-toggler:focus {
     box-shadow: none;
@@ -56,6 +54,14 @@
 .contact_link{
         background-color: orange !important;
         border-radius: 4px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: black !important;
+}
+.navbar.navbar-dark .navbar-toggler{
+ 
+    border: 1px solid grey;
 }
 
 

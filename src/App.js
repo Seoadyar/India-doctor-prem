@@ -1,6 +1,7 @@
 import {Route, Routes} from 'react-router-dom'
 import Home from './components/pages/Home'
 import Footer from './components/pages/Footer'
+ 
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
     </Routes>
 
     <Footer/>
+ 
     </div>
   );
 }

@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../css/Navibar.css'
 function Navibar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" >
       <Container>
         <Navbar.Brand href="#home">Apollo Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -170,7 +170,7 @@ function Home() {
 
 
             {/* Specialities */}
-            <div className="specs_title">
+            <div className="specs_title spc_ori_title">
                 <h1 >Specialties Listed</h1>
                 <p></p>
             </div>
