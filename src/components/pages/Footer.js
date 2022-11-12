@@ -19,7 +19,7 @@ function Footer() {
                                 Egattur Village, Thalambur Post,
                                 Chennai-600130</p>
                                 <div className='footer_socialm_cont'>
-                                <p><BsTelephoneFill className='f_icons f_ph_icon' />91767 67688/89399 88833</p>
+                                <p>Ph: 91767 67688/89399 88833</p>
                                 <a href="https://instagram.com/apollodentalthoraipakkam?igshid=YmMyMTA2N" ><FiInstagram className='f_icons' />Instagram</a><br></br>
                                 <a className="foo_anch_link2" href="https://www.facebook.com/apollodentalthoraipakkam" ><FaFacebookSquare className='f_icons' />Facebook</a>
                             </div>
@@ -34,7 +34,7 @@ function Footer() {
                                 Chennai - 600097
                             </p>
                             <div className='footer_socialm_cont'>
-                                <p><BsTelephoneFill className='f_icons f_ph_icon' />91767 67688/89399 88833</p>
+                                <p>Ph: 91767 67688/89399 88833</p>
                                 <a href="https://instagram.com/apollodentalthoraipakkam?igshid=YmMyMTA2N" ><FiInstagram className='f_icons' />Instagram</a><br></br>
                                 <a className="foo_anch_link2" href="https://www.facebook.com/apollodentalthoraipakkam" ><FaFacebookSquare className='f_icons' />Facebook</a>
                             </div>
@@ -52,7 +52,7 @@ function Footer() {
                                 Telangana
                             </p>
                             <div className='footer_socialm_cont'>
-                                <p><BsTelephoneFill className='f_icons f_ph_icon' />91767 67688/89399 88833</p>
+                                <p>Ph: 91767 67688/89399 88833</p>
                                 <a href="https://instagram.com/apollodentalthoraipakkam?igshid=YmMyMTA2N" ><FiInstagram className='f_icons' />Instagram</a><br></br>
                                 <a className="foo_anch_link2" href="https://www.facebook.com/apollodentalthoraipakkam" ><FaFacebookSquare className='f_icons' />Facebook</a>
                             </div>

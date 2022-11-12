@@ -15,8 +15,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 
 
-// react-id-swiper
-import Swiper from 'react-id-swiper';
+ 
 
 // material UI 
 import Box from '@mui/material/Box';
@@ -70,11 +69,11 @@ function Home() {
                 <div className="counts_main_cont">
 
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="50" /></p>
+                        <p> <CountUp duration={2} className="counter" end="5560" /></p>
                         <p>YEAR OF EXPERIANCE</p>
                     </div>
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="134500" /></p>
+                        <p> <CountUp duration={2} className="counter" end="34500" /></p>
                         <p>SMILES TRANSFORMED</p>
                     </div>
                     <div className="counts_1">
