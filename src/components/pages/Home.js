@@ -85,6 +85,14 @@ function Home() {
                 </video>
             </div>
 
+              <div className='spec_stock_img_cont'>
+                <div className='spec_stock_img_main_cont'>
+                    <img src={spec1}/>
+                    <img src={spec2}/>
+                    <img src={spec3}/>
+                </div>
+            </div>
+
 
 
             {/* countes */}
