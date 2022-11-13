@@ -634,10 +634,11 @@ hospital images */
     .counts_1 p:last-child {
         width: 97px;
         font-size: 10px;
+        margin-bottom: 0;
     }
     .counts_main_cont {
         width: 95%;
-        height: 177px;
+        height:154px;
         background-color: #237d9e;
         color: #ffffff;
         display: flex;
@@ -645,6 +646,13 @@ hospital images */
         margin-top: -97px;
         border-radius: 7px;
         margin-bottom: 50px;
+    }
+    .counts_1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 11px;
     }
  
     

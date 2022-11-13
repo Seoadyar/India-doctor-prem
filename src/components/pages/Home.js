@@ -141,10 +141,10 @@ function Home() {
 
             <div className="vlog_slider_cont">
                 <div className="vlog_main_slider_cont">
-                    <div className='vlog_1 ' data-aos="fade-left">
+                    <div className='vlog_1'>
                         <iframe className='main_y_m' src="https://www.youtube.com/embed/BsCZYDCQHhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div className='vlog_1_main' data-aos="fade-right">
+                    <div className='vlog_1_main'>
                         <div className='vlog_2'>
                             <p>Latest video</p>
                             <div className='vlog_2_sub'>
@@ -264,84 +264,7 @@ function Home() {
                 <div className="testi_main_cont">
 
 
-                    <Carousel activeIndex={index} onSelect={handleSelect}>
-                        <Carousel.Item>
-                            <div className="testi_swip_cont">
-                                <p className="testi_title">Client's <span className="cli_txt">Speak</span></p>
-                                <div className="testi_content">
-                                    <img src={clients} />
-                                    <p className="cli_name">Raj</p>
-                                    <p className='cli_reviewc_content'>"Thank you so much Dr. Prem and team for your valuable service even during the pandemic when everyone had difficult times. It showed the level of care you have for your patients!"</p>
-                                   <Box className='star_cont'>
-
-                                        <Rating name="read-only" value={5} readOnly />
-                                    </Box>
-                                </div>
-                                
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="testi_swip_cont">
-                                <p className="testi_title">Client's <span className="cli_txt">Speak</span></p>
-                                <div className="testi_content">
-                                    <img src={clients} />
-                                    <p className="cli_name">Bala</p>
-                                    <p className='cli_reviewc_content'>"Dr Prem Alex is specialist in All-On-4 and All-On-6 implantation. Overall, my experience was very good with Apollo Dental OMR"</p>
-                                   <Box className='star_cont'>
-
-                                        <Rating name="read-only" value={5} readOnly />
-                                    </Box>
-                                </div>
-                               
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="testi_swip_cont">
-                                <p className="testi_title">Client's <span className="cli_txt">Speak</span></p>
-                                <div className="testi_content">
-                                    <img src={clients} />
-                                    <p className="cli_name">Anu</p>
-                                    <p className='cli_reviewc_content'>"My recent experience with Dr Prem at Apollo Dental OMR was wonderful. I went to the clinic based on the reviews online but wasn't sure until I got my broken braces fixed. Very grateful that I found them and would personally recommend them"</p>
-                                   <Box className='star_cont'>
-
-                                        <Rating name="read-only" value={5} readOnly />
-                                    </Box>
-                                </div>
-                                
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="testi_swip_cont">
-                                <p className="testi_title">Client's <span className="cli_txt">Speak</span></p>
-                                <div className="testi_content">
-                                    <img src={clients} />
-                                    <p className="cli_name">Moganambal</p>
-                                    <p className='cli_reviewc_content'>"I am very satisfied with the All-On-6 implants. All the staff here were very kind and caring to
-                                        me. Dr. Prem Alex Lawrence was very skilled and handled my case very well"</p>
-                                   <Box className='star_cont'>
-
-                                        <Rating name="read-only" value={5} readOnly />
-                                    </Box>
-                                </div>
-                               
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="testi_swip_cont">
-                                <p className="testi_title">Client's <span className="cli_txt">Speak</span></p>
-                                <div className="testi_content">
-                                    <img src={clients} />
-                                    <p className="cli_name">Nagalatha</p>
-                                    <p className='cli_reviewc_content'>"I was looking to finalize a good Dentist for my implantation, through one of my friends' references I met Dr. Prem Alex from Apollo Dental OMR. His treatment for All-on-4 implantation was well planned and very comfortable."</p>
-                                   <Box className='star_cont'>
-
-                                        <Rating name="read-only" value={5} readOnly />
-                                    </Box>
-                                </div>
-                           
-                            </div>
-                        </Carousel.Item>
-                    </Carousel>
+                
                 </div>
             </div>
 

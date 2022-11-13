@@ -66,6 +66,10 @@
 .navbar-toggler{
     border: none !important;
 }
+.bg-light {
+   
+    background-color:transparent !important;
+}
 
 
 
