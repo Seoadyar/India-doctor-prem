@@ -1,0 +1,49 @@
+/* ph number */
+.nav_ph_icon{
+    margin-top: -3px;
+    margin-right: 4px;
+}
+.ph_cont {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1px 10px;
+background-color: #237d9e;
+color: white;
+height: 40px;
+}
+
+.ph_left {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ph_left p {
+margin-left: 13px;
+text-align: center;
+}
+
+.ph_left {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 11px;
+font-size: 13px;
+}
+
+.ph_right {
+margin-top: -8px;
+}
+
+
+/* navbar home */
+
+.nav_main_home {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.container, .container-sm {
+max-width:100% !important;
+}

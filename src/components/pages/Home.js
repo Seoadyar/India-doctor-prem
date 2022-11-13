@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Navibar from "./Navibar";
 import '../css/Home.css';
 import banner from '../Assests/banner.mp4'
 import spec1 from '../Assests/spec1.jpg'
@@ -11,8 +10,7 @@ import hos3 from '../Assests/hos3.jpg'
 import WhyChooseUsSquare from '../Assests/WhyChooseUsSquare.jpg'
 import clients from '../Assests/clients.jpg'
 import s_icons from '../Assests/s_icons.png'
-import { TbWorld } from 'react-icons/tb'
-import { HiPhone } from 'react-icons/hi'
+
 import CountUp from "react-countup";
 
 
@@ -26,13 +24,14 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import {Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 
 
 
 // material UI 
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
+import TopNav from './TopNav';
 
 
 
@@ -58,25 +57,8 @@ function Home() {
     return (
         <div>
 
-            {/* ph number */}
-            <div className="ph_cont">
-                <div className="ph_left">
-                    <p><HiPhone className='nav_ph_icon' />+91 9360375911</p>
-                    <p>karthik5112001@gmail.com</p>
-                </div>
-                <div className="ph_right">
-                    <TbWorld />
-                </div>
-            </div>
 
-
-            {/* navbar */}
-            <div className="nav_home_cont">
-                <div className="nav_main_home" >
-                    <Navibar />
-                </div>
-
-            </div>
+<TopNav/>
 
             {/* slider */}
             <div class="banner_slider" >
@@ -84,9 +66,6 @@ function Home() {
                     <source src={banner} type="video/mp4" />
                 </video>
             </div>
-
-            
-
 
 
             {/* countes */}
@@ -161,7 +140,7 @@ function Home() {
 
             <div className='spec_stock_img_cont'>
                 <div className='spec_stock_img_main_cont'>
-                    <img src={spec1}/>
+                    <img src={spec1} />
                     {/* <img src={spec2}/>
                     <img src={spec3}/> */}
                 </div>
@@ -277,7 +256,7 @@ function Home() {
                 </div>
             </div>
 
-            
+
 
 
 
@@ -313,8 +292,8 @@ function Home() {
                         autoplay={{
                             delay: 1000,
                             disableOnInteraction: false,
-                          }}
-                       
+                        }}
+
                         breakpoints={{
                             640: {
                                 slidesPerView: 2,
@@ -329,7 +308,7 @@ function Home() {
                                 spaceBetween: 50,
                             },
                         }}
-                        modules={[Autoplay,Pagination]}
+                        modules={[Autoplay, Pagination]}
                         className="mySwiper"
                     >
                         <SwiperSlide>

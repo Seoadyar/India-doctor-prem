@@ -1,8 +1,12 @@
 import React from 'react'
+import TopNav from './TopNav'
 
 function AllOn4() {
   return (
-    <div>AllOn4</div>
+    <div>
+        <TopNav/>
+        <h1>a</h1>
+    </div>
   )
 }
 
