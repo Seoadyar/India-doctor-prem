@@ -345,116 +345,17 @@ hospital images */
 
 
 /* Testimonials */
-.tes1 {
-    margin-top: 84px;
-    margin-bottom: -51px;
-}
+ 
+ 
 .testi_cont {
-    display: flex;
-    justify-content: center;
-    margin-top: 62px;
-    /* padding: 80px 0; */
-    /* width: 80%; */
-    /* margin-bottom: 67px; */
-    background-color: #f6f6f6;
-    padding-bottom: 30px;
-}                                   
-.testi_content img{
-    width: 120px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    border:2px solid #ff9800;
-}
-
-.testi_main_cont {
-    width: 80%;
-   
-    border-radius: 7px;
-    color: white;
-    padding: 30px  5px 0px 30px;
-    /* border: 1px solid #d0d0d0; */
-    position: relative;
-}
-
-.testi_content {
+    background-color: white;
+    height: 468px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 250px;
 }
-
-.cli_reviewc_content {
-    width: 90%;
-    text-align: justify;
-    font-size: 19px;
-    color: #3a3a3a;
-    font-weight: 600;
-    margin: 0;
-}
-
-.testi_title {
-    font-size: 31px;
-    font-weight: bold;
-    color: black;
-}
-.star_cont{
-    margin-top: 10px;
-}
-
-.cli_txt {
-    color: #00b5ff;
-    font-weight: 700;
-}
-
-.cli_name {
-    font-size: 18px;
-    font-size: 23px;
-    color: #2c2c2c;
-    font-weight: 600;
-}
-.swiper-container{
-    overflow: hidden;
-}
-.slide_btn_main{
-    display: flex;
-    justify-content: center;
-}
-.slide_btn{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-}
-.slide_btn button {
-    border-radius: 6px;
-    width: 100px;
-    padding: 8px 32px;
-    margin: 0 24px;
-    border: transparent;
-    background-color: orange;
-    color: black;
-    font-weight: 600;
-}
-.carousel-indicators {
-   display: none !important;
-}
-
-.carousel-control-next-icon::after {
-    content: "";
-    font-weight: bold;
-    font-family: "Font Awesome 6 Pro","Font Awesome 6 Free";
-    font-size: 1.7rem;
-    color: #ff9800;
-    margin-left: 100px;
-}
-
-.carousel-control-prev-icon::after {
-    color: #ff9800;
-   position: relative;
-   right: 100px;
-   font-weight: bold;
-}
-
-
+ 
+ 
 
 /*--------- tab responsive ------------------------------- */
 @media (max-width:800px) {
@@ -567,9 +468,6 @@ hospital images */
         display: flex;
         justify-content: center;
         margin-top: -77px;
-        /* padding: 80px 0; */
-        /* width: 80%; */
-        /* margin-bottom: 67px; */
         background-color: #f6f6f6;
         padding-bottom: 30px;
     }
