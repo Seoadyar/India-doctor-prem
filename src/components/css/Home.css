@@ -66,14 +66,12 @@ slider */
 .counts_main_cont {
     width: 70%;
     height: 230px;
-    background-color: #237d9e;
+    /* background-color: #237d9e; */
     color: #ffffff;
     display: flex;
     justify-content: space-around;
     margin-top: -91px;
     border-radius: 7px;
-    
-
 }
 
 .counts_1 {

@@ -35,11 +35,11 @@ const ProBar = () => (
 
 function Example(props) {
   return (
-    <div style={{ marginBottom: 80 }}>
+    <div >
      
       <div style={{ marginTop: 30, display: "flex" }}>
-        <div style={{ width: "250px", paddingRight: 30 }}>{props.children}</div>
-        <div style={{ width: "70%" }}>
+        <div style={{ width: "250px",backgroundColor:"white",borderRadius:"50%" }}>{props.children}</div>
+        <div style={{ width: "40%" }}>
         </div>
       </div>
     </div>
