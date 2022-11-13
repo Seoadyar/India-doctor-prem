@@ -227,17 +227,22 @@ slider */
 .spec_stock_img_cont{
     display: flex;
     justify-content: center;
+   
 }
 .spec_stock_img_main_cont {
     width: 100%;
     height: 401px;
     display: flex;
+   
 }
 .spec_stock_img_main_cont img {
     width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
+/* .spec_stock_img_main_cont img:nth-child(2),img:nth-child(3){
+    display: none;
+}  */
 
 
 
@@ -573,6 +578,14 @@ hospital images */
         height: 570px;
         padding: 0px;
         flex-direction: column;
+    }
+    .vlog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 38px;
+        justify-content: center;
+        margin-bottom: 0px;
     }
     .spc_ori_title {
         display: flex;
