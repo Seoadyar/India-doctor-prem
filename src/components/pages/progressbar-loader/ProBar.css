@@ -1,0 +1,5 @@
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #ff9800;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}

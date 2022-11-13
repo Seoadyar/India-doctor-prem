@@ -246,7 +246,7 @@ function Home() {
                 <h1 >Testimonials</h1>
                 <p></p>
             </div>
-            <ProBar/>
+           
             {/* hospital images */}
 
             <div className='scrol_img_cont'> 

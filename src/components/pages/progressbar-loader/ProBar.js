@@ -10,7 +10,7 @@ import "react-circular-progressbar/dist/styles.css";
 // Animation
  
 import ChangingProgressProvider from "./ChangingProgressProvider";
-
+import './ProBar.css'
  
 
  
