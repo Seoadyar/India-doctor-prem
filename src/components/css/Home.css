@@ -85,7 +85,7 @@ slider */
     text-align: center;
 }
 
-.counts_1 p:first-child {
+/* .counts_1 p:first-child {
     font-size: 30px;
     font-weight: bold;
     color: #f57825;
@@ -96,7 +96,7 @@ slider */
     align-items: center;
     border-radius:50%;
     border: 4px solid #f57825;
-}
+} */
 
 
 
@@ -601,6 +601,7 @@ hospital images */
         width: 121px;
         height: 134px;
         margin: 1px;
+        margin-bottom: 31px;
     }
     .s_icon_cont p {
         width: 91px;

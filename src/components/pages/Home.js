@@ -21,6 +21,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
+import ProBar from './progressbar-loader/ProBar';
 
 
 function Home() {
@@ -69,21 +70,24 @@ function Home() {
                 <div className="counts_main_cont">
 
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="5560" /></p>
+                        {/* <p> <CountUp duration={2} className="counter" end="5560" /></p> */}
+                        <ProBar/>
                         <p>YEAR OF EXPERIANCE</p>
                     </div>
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="34500" /></p>
+                    <ProBar/>
                         <p>SMILES TRANSFORMED</p>
                     </div>
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="6589" /></p>
+                    <ProBar/>
                         <p>IMPLANTS PLACED<br></br>(INCLUDING SPECIAL IMPLANTS)</p>
                     </div>
 
 
                 </div>
             </div>
+
+           
 
 
 
@@ -242,7 +246,7 @@ function Home() {
                 <h1 >Testimonials</h1>
                 <p></p>
             </div>
-
+            <ProBar/>
             {/* hospital images */}
 
             <div className='scrol_img_cont'> 
