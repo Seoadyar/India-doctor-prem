@@ -58,7 +58,7 @@ function Home() {
         <div>
 
 
-<TopNav/>
+
 
             {/* slider */}
             <div class="banner_slider" >

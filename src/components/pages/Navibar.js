@@ -27,7 +27,7 @@ function Navibar() {
                MEET DR. PREM
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/TheTeam'>THE TEAM</NavDropdown.Item>
-              <NavDropdown.Divider />
+               
             </NavDropdown>
 
         
@@ -42,7 +42,7 @@ function Navibar() {
               <NavDropdown.Item as={Link} to='/SinusLifts'>SINUS LIFTS</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/ProsthesisTypes'>PROSTHESIS TYPES</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/ThoothOnDay'>THOOTH-ON-DAY</NavDropdown.Item>
-              <NavDropdown.Divider />
+               
             </NavDropdown>
 
             <NavDropdown title="INTERNATIONAL PATIENTS" id="collasible-nav-dropdown">
@@ -51,20 +51,12 @@ function Navibar() {
               <NavDropdown.Item as={Link} to='/Testimonials'>
                 TESTIMONIALS
               </NavDropdown.Item>
-              <NavDropdown.Divider />
+               
             </NavDropdown>
 
-            <Nav.Link as={Link} to='/Blog1'>BLOGS</Nav.Link>
+            <Nav.Link as={Link} to='/blog'>BLOGS</Nav.Link>
 
-            <NavDropdown title="CONTACT" id="collasible-nav-dropdown " className="contact_link">
-              <NavDropdown.Item as={Link} to='/Contact'>OMR</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to='/Contact'>
-              NAVALUR
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to='/Contact'>GACHIBOWLI</NavDropdown.Item>
-           
-              <NavDropdown.Divider />
-            </NavDropdown>
+            <Nav.Link as={Link} to='/Contact' className="contact_link">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
