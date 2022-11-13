@@ -91,7 +91,7 @@ justify-content:space-around;
 
 
 
-@media (max-width:512px) {
+@media (max-width:600px) {
     .add_main_cont {
         display: flex;
         justify-content: center;
@@ -152,5 +152,12 @@ justify-content:space-around;
     .copy_right_cont p:first-child {
         font-size: 15px;
         text-align: center;
+    }
+    .footer_cont {
+        width: 100%;
+        background-color: #21687e;
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
     }
 }

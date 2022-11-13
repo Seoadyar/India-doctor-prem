@@ -5,21 +5,31 @@ import banner from '../Assests/banner.mp4'
 
 import hos3 from '../Assests/hos3.jpg'
 import WhyChooseUsSquare from '../Assests/WhyChooseUsSquare.jpg'
+import clients from '../Assests/clients.jpg'
 import s_icons from '../Assests/s_icons.png'
 import { TbWorld } from 'react-icons/tb'
 import { HiPhone } from 'react-icons/hi'
 import CountUp from "react-countup";
 
 
- 
+
+// swiper js
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+// import required modules
+import { Pagination } from "swiper";
+
 
 
 // material UI 
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
-import Typography from '@mui/material/Typography';
-import ProBar from './progressbar-loader/ProBar';
-import TestiMonialSlider from '../slick-slider/TestiMonialSlider';
+
 
 
 function Home() {
@@ -175,8 +185,8 @@ function Home() {
                     </div>
  */}
 
-<div class="elfsight-app-dd7f468f-5215-4875-bcc2-acfac68a5c19"></div>
-
+ 
+<div class="elfsight-app-78466e75-c233-4c85-8453-084b2cb80d42 youtu_cont" id="youtube_frame" ></div>
                 </div>
             </div>
 
@@ -273,9 +283,149 @@ function Home() {
                 <h1>Client <span style={{ color: "#00b8f1" }}>Speak</span></h1>
 
                 <div className="testi_main_cont">
-                    <TestiMonialSlider />
 
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={10}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
+                        }}
+                        modules={[Pagination]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <div className="testi_content">
+                                <div className='testi_img_cont'>
+                                    <img src={clients} />
+                                    <div>
+                                        <p className="cli_name">Raj</p>
+                                        <Box className='star_cont'>
+                                            <Rating name="read-only" value={5} readOnly />
+                                        </Box>
+                                    </div>
+                                </div>
+                                <div className='testi_content_main_cont'>
+                                    <div className='cli_reviewc_main_content'>
+                                        <p className='cli_reviewc_content'>"Thank you so much Dr. Prem and team for your valuable service even during the pandemic when everyone had difficult times. It showed the level of care you have for your patients!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
 
+                        <SwiperSlide>
+                            <div className="testi_content">
+                                <div className='testi_img_cont'>
+                                    <img src={clients} />
+                                    <div>
+                                        <p className="cli_name">Bala</p>
+                                        <Box className='star_cont'>
+                                            <Rating name="read-only" value={5} readOnly />
+                                        </Box>
+                                    </div>
+                                </div>
+                                <div className='testi_content_main_cont'>
+                                    <div className='cli_reviewc_main_content'>
+                                        <p className='cli_reviewc_content'>"Dr Prem Alex is specialist in All-On-4 and All-On-6 implantation. Overall, my experience was very good with Apollo Dental OMR"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="testi_content">
+                                <div className='testi_img_cont'>
+                                    <img src={clients} />
+                                    <div>
+                                        <p className="cli_name">Anu</p>
+                                        <Box className='star_cont'>
+                                            <Rating name="read-only" value={5} readOnly />
+                                        </Box>
+                                    </div>
+                                </div>
+                                <div className='testi_content_main_cont'>
+                                    <div className='cli_reviewc_main_content'>
+                                        <p className='cli_reviewc_content'>"My recent experience with Dr Prem at Apollo Dental OMR was wonderful. I went to the clinic based on the reviews online but wasn't sure until I got my broken braces fixed. Very grateful that I found them and would personally recommend them"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="testi_content">
+                                <div className='testi_img_cont'>
+                                    <img src={clients} />
+                                    <div>
+                                        <p className="cli_name">Moganambal</p>
+                                        <Box className='star_cont'>
+                                            <Rating name="read-only" value={5} readOnly />
+                                        </Box>
+                                    </div>
+                                </div>
+                                <div className='testi_content_main_cont'>
+                                    <div className='cli_reviewc_main_content'>
+                                        <p className='cli_reviewc_content'>"I am very satisfied with the All-On-6 implants. All the staff here were very kind and caring to
+                                        me. Dr. Prem Alex Lawrence was very skilled and handled my case very well"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="testi_content">
+                                <div className='testi_img_cont'>
+                                    <img src={clients} />
+                                    <div>
+                                        <p className="cli_name">Raj</p>
+                                        <Box className='star_cont'>
+                                            <Rating name="read-only" value={5} readOnly />
+                                        </Box>
+                                    </div>
+                                </div>
+                                <div className='testi_content_main_cont'>
+                                    <div className='cli_reviewc_main_content'>
+                                        <p className='cli_reviewc_content'>"Thank you so much Dr. Prem and team for your valuable service even during the pandemic when everyone had difficult times. It showed the level of care you have for your patients!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="testi_content">
+                                <div className='testi_img_cont'>
+                                    <img src={clients} />
+                                    <div>
+                                        <p className="cli_name">Nagalatha</p>
+                                        <Box className='star_cont'>
+                                            <Rating name="read-only" value={5} readOnly />
+                                        </Box>
+                                    </div>
+                                </div>
+                                <div className='testi_content_main_cont'>
+                                    <div className='cli_reviewc_main_content'>
+                                        <p className='cli_reviewc_content'>"I was looking to finalize a good Dentist for my implantation, through one of my friends' references I met Dr. Prem Alex from Apollo Dental OMR. His treatment for All-on-4 implantation was well planned and very comfortable."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                      
+                       
+
+                    </Swiper>
 
 
                 </div>
