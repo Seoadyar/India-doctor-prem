@@ -63,6 +63,9 @@
  
     border: 1px solid grey;
 }
+.navbar-toggler{
+    border: none !important;
+}
 
 
 
