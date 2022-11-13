@@ -22,7 +22,7 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Pagination } from "swiper";
+import {Autoplay, Pagination } from "swiper";
 
 
 
@@ -185,9 +185,9 @@ function Home() {
                     </div>
  */}
 
- 
-<div class="elfsight-app-88e28f72-d80c-45a7-a7cf-084cb2e0e05c"></div>
-            </div>
+
+                    <div class="elfsight-app-88e28f72-d80c-45a7-a7cf-084cb2e0e05c"></div>
+                </div>
             </div>
 
 
@@ -290,6 +290,11 @@ function Home() {
                         pagination={{
                             clickable: true,
                         }}
+                        autoplay={{
+                            delay: 1000,
+                            disableOnInteraction: false,
+                          }}
+                       
                         breakpoints={{
                             640: {
                                 slidesPerView: 2,
@@ -304,7 +309,7 @@ function Home() {
                                 spaceBetween: 50,
                             },
                         }}
-                        modules={[Pagination]}
+                        modules={[Autoplay,Pagination]}
                         className="mySwiper"
                     >
                         <SwiperSlide>
@@ -378,7 +383,7 @@ function Home() {
                                 <div className='testi_content_main_cont'>
                                     <div className='cli_reviewc_main_content'>
                                         <p className='cli_reviewc_content'>"I am very satisfied with the All-On-6 implants. All the staff here were very kind and caring to
-                                        me. Dr. Prem Alex Lawrence was very skilled and handled my case very well"</p>
+                                            me. Dr. Prem Alex Lawrence was very skilled and handled my case very well"</p>
                                     </div>
                                 </div>
                             </div>
@@ -422,8 +427,8 @@ function Home() {
                             </div>
                         </SwiperSlide>
 
-                      
-                       
+
+
 
                     </Swiper>
 
