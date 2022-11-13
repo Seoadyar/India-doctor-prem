@@ -216,6 +216,24 @@ slider */
 
 
 
+/* specilities stock imgages */
+
+.spec_stock_img_cont{
+    display: flex;
+    justify-content: center;
+}
+.spec_stock_img_main_cont{
+    width: 90%;
+    height: 250px;
+    display: flex;
+
+}
+.spec_stock_img_main_cont img{
+    width: 100px;
+    object-fit: cover;
+}
+
+
 
 
 /* vlog */
@@ -308,9 +326,7 @@ slider */
 #youtube_frame{
     width:50% !important;
 }
- .yottie-widget-inner:nth-child(3){
  
- }
 
 
 

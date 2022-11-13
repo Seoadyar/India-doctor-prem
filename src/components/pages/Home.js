@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import Navibar from "./Navibar";
 import '../css/Home.css';
 import banner from '../Assests/banner.mp4'
+import spec1 from '../Assests/spec1.jpg'
+import spec2 from '../Assests/spec2.jpg'
+import spec3 from '../Assests/spec3.jpg'
+import spec4 from '../Assests/spec4.jpg'
 
 import hos3 from '../Assests/hos3.jpg'
 import WhyChooseUsSquare from '../Assests/WhyChooseUsSquare.jpg'
@@ -151,6 +155,18 @@ function Home() {
 
 
 
+            {/* specilities stock imgages */}
+
+            <div className='spec_stock_img_cont'>
+                <div className='spec_stock_img_main_cont'>
+                    <img src={spec1}/>
+                    <img src={spec2}/>
+                    <img src={spec3}/>
+                </div>
+            </div>
+
+
+
             {/* vlog */}
             <div className="specs_title vlog">
                 <h1>Know more</h1>
@@ -258,6 +274,8 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            
 
 
 
