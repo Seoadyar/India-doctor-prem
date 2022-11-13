@@ -94,16 +94,16 @@ function Home() {
                 <div className="counts_main_cont">
 
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="5560" /></p>
+                        <p> <CountUp duration={3} className="counter" end="5560" /></p>
 
                         <p>YEAR OF EXPERIANCE</p>
                     </div>
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="5560" /></p>
+                        <p> <CountUp duration={3} className="counter" end="5560" /></p>
                         <p>SMILES TRANSFORMED</p>
                     </div>
                     <div className="counts_1">
-                        <p> <CountUp duration={2} className="counter" end="5560" /></p>
+                        <p> <CountUp duration={3} className="counter" end="5560" /></p>
                         <p>IMPLANTS PLACED<br></br>(INCLUDING SPECIAL IMPLANTS)</p>
                     </div>
 
