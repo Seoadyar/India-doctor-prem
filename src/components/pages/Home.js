@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../css/Home.css';
-import banner from '../Assests/banner.mp4'
+import banner from '../Assests/videodoc.mp4'
 import spec1 from '../Assests/spec1.jpg'
 import spec2 from '../Assests/spec2.jpg'
 import spec3 from '../Assests/spec3.jpg'

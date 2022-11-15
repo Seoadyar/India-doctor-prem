@@ -4,8 +4,9 @@
 slider */
 .banner_slider video {
     width: 100%;
-    height: 400px;
+    height: 28.6rem;
     object-fit: cover;
+    
 }
 
 
