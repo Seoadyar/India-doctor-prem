@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from "react-slick";
 import { FaUserCircle } from 'react-icons/fa';
 import TestimonialText from '../Json/TestimonialText.json';
-import InternationalPatientsVideo from '../Assests/Tourism/International_Patients.mp4';
 import Phases_involved from '../Assests/Tourism/Phases_involved.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
@@ -224,7 +223,7 @@ function testimonialContent() {
 function InternationalPatient() {
   return (
     <React.Fragment>
-      <video src={InternationalPatientsVideo} style={{ width: "100%", height: "100%" }} autoPlay loop controls muted ></video>
+      <video src='https://firebasestorage.googleapis.com/v0/b/apollo-dental.appspot.com/o/International_Patients.mp4?alt=media&token=9bf2a845-76a8-4f97-b5d5-4a38ea0a461c' style={{ width: "100%", height: "100%" }} autoPlay loop controls ></video>
       <div>
         <div>
           {walkThroughContent()}
