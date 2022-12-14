@@ -26,6 +26,7 @@ import his5 from '../Assests/Tourism/Historical Buidings/his5.jpg'
 import rel1 from '../Assests/Tourism/Religious Places/rel1.png'
 import rel2 from '../Assests/Tourism/Religious Places/rel2.jpg'
 import rel3 from '../Assests/Tourism/Religious Places/rel3.jpg'
+import rel4 from '../Assests/Tourism/Religious Places/rel4.jpg'
 //----------shop------------
 import shop1 from '../Assests/Tourism/Shopping/shop1.jpg'
 import shop2 from '../Assests/Tourism/Shopping/shop2.jpg'
@@ -38,7 +39,12 @@ import things2 from '../Assests/Tourism/Things to do/things2.jpg'
 import things3 from '../Assests/Tourism/Things to do/things3.jpg'
 import things4 from '../Assests/Tourism/Things to do/things4.jpg'
 import things5 from '../Assests/Tourism/Things to do/things5.jpg'
-
+//------ECR----------------------
+import ST from '../Assests/Tourism/ECR/ST.jpg'
+import M1 from '../Assests/Tourism/ECR/M1.jpg'
+import SS1 from '../Assests/Tourism/ECR/SS1.jpg'
+import CB1 from '..//Assests/Tourism/ECR/CB1.jpg'
+import D2 from '../Assests/Tourism/ECR/D2.jpg'
 
 import '../css/InternationalPatient.css';
 
@@ -63,7 +69,7 @@ function walkThroughContent() {
 }
 
 function tourismContent() {
-   
+
   return (
     <div data-aos="fade-up">
       {/* <h2 className='mt-5 text-center font-weight-bold primary'>Tourism</h2>
@@ -82,99 +88,141 @@ function tourismContent() {
         </div>
       </div>
 
-          {/* Discover Chennai */}
-          <div className="all_on_6_des_title doctor_name_title" data-aos="fade-up">
-                <h1>Discover Chennai</h1>
-                <p></p>
+      {/* Discover Chennai */}
+      <div className="all_on_6_des_title doctor_name_title" data-aos="fade-up">
+        <h1>Discover Chennai</h1>
+        <p></p>
+      </div>
+
+      <div className='discover_cont'>
+        <div className='discover_main_cont'>
+
+          <div className='discover_main_cont_one'>
+            <div className='discover_main_cont_one1'>
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper" data-aos="fade-up">
+
+                <SwiperSlide><img src={his1} data-aos="fade-up" /></SwiperSlide>
+                <SwiperSlide><img src={his2} data-aos="fade-up" /></SwiperSlide>
+                <SwiperSlide><img src={his3} data-aos="fade-up" /></SwiperSlide>
+                <SwiperSlide><img src={his5} data-aos="fade-up" /></SwiperSlide>
+              </Swiper>
             </div>
-
-            <div className='discover_cont'>
-                <div className='discover_main_cont'>
-                    <div className='discover_main_cont_one'>
-                        <div className='discover_main_cont_one1'>
-                            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                                <SwiperSlide><img src={food1} /></SwiperSlide>
-                                <SwiperSlide><img src={food2} /></SwiperSlide>
-                                <SwiperSlide><img src={food3} /></SwiperSlide>
-                                <SwiperSlide><img src={food4} /></SwiperSlide>
-                                <SwiperSlide><img src={food5} /></SwiperSlide>
-                                <SwiperSlide><img src={food6} /></SwiperSlide>
-                            </Swiper>
-                        </div>
-                        <div className='discover_main_cont_one2'>
-                            <p>Food</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-
-                    <div className='discover_main_cont_one'>
-                        <div className='discover_main_cont_one1'>
-                            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                                <SwiperSlide><img src={his1} /></SwiperSlide>
-                                <SwiperSlide><img src={his2} /></SwiperSlide>
-                                <SwiperSlide><img src={his3} /></SwiperSlide>
-                                <SwiperSlide><img src={his4} /></SwiperSlide>
-                                <SwiperSlide><img src={his5} /></SwiperSlide>
-                            </Swiper>
-                        </div>
-                        <div className='discover_main_cont_one2'>
-                            <p>Historical Buidings</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-
-                    <div className='discover_main_cont_one'>
-                        <div className='discover_main_cont_one1'>
-                            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                                <SwiperSlide><img src={rel1} /></SwiperSlide>
-                                <SwiperSlide><img src={rel2} /></SwiperSlide>
-                                <SwiperSlide><img src={rel3} /></SwiperSlide>
-                            </Swiper>
-                        </div>
-                        <div className='discover_main_cont_one2'>
-                            <p>Religious Places</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-
-
-                    <div className='discover_main_cont_one'>
-                        <div className='discover_main_cont_one1'>
-                            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                                <SwiperSlide><img src={shop1} /></SwiperSlide>
-                                <SwiperSlide><img src={shop2} /></SwiperSlide>
-                                <SwiperSlide><img src={shop3} /></SwiperSlide>
-                                <SwiperSlide><img src={shop4} /></SwiperSlide>
-                                <SwiperSlide><img src={shop5} /></SwiperSlide>
-                            </Swiper>
-                        </div>
-                        <div className='discover_main_cont_one2'>
-                            <p>Shopping</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-
-
-                    <div className='discover_main_cont_one'>
-                        <div className='discover_main_cont_one1'>
-                            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                                <SwiperSlide><img src={things1} /></SwiperSlide>
-                                <SwiperSlide><img src={things2} /></SwiperSlide>
-                                <SwiperSlide><img src={things3} /></SwiperSlide>
-                                {/* <SwiperSlide><img src={things4} /></SwiperSlide> */}
-                                <SwiperSlide><img src={things5} /></SwiperSlide>
-                            </Swiper>
-                        </div>
-                        <div className='discover_main_cont_one2'>
-                            <p>Things to do</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                </div>
+            <div className='discover_main_cont_one2'>
+              <p data-aos="fade-up" >Historical Buidings</p>
+              <p data-aos="fade-up" >Chennai is also home to colonial reminders. Some outstanding architecture includes the Fort St. George, the first English fortress in India. Chennai has its own version of the white house called Ripon Building built in honour of Lord Ripon. It currently houses the office of the Greater Chennai Corporation. This building makes for great pictures. The high court in Chennai is another beautiful building built in the Indo Sarcenic style of architecture and has magnificent painted ceilings and stained glass doors.</p>
             </div>
+          </div>
 
 
-       
+          <div class="banner_slider" >
+
+          </div>
+
+
+
+
+          <div className='discover_main_cont_one'>
+
+
+
+
+
+            <div className='discover_main_cont_one1'>
+
+
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper" data-aos="fade-up">
+
+                <SwiperSlide><img src={rel1} /></SwiperSlide>
+                <SwiperSlide><img src={rel2} /></SwiperSlide>
+                <SwiperSlide><img src={rel3} /></SwiperSlide>
+                <SwiperSlide><img src={rel4} /></SwiperSlide>
+              </Swiper>
+            </div>
+            <div className='discover_main_cont_one2'>
+              <p data-aos="fade-up" >Religious Places</p>
+              <p data-aos="fade-up" >Chennai’s religious places are some of the world’s famous heritage structures. The Kapaleeswarar Temple, located in Mylapore, dedicated to Lord Shiva was built in the 7th Century and boasts breath-taking Dravidian-style architecture.  The Santhome Basilica is well worth a trip for any visitor to Chennai. It houses the final resting place of one of Jesus’s 12 apostles, St. Thomas. A museum attached to it houses his bone and fingerprint and other antiquities surrounding his assassination. The Madras Synagogue near Mint Street holds the last traces of Jewish presence in Chennai. The Jewish Cemetery is worth a visit for its interesting stories.  The Mughals also left their indelible mark on Chennai through the Nawab of Arcot. Locally known as Big Mosque in Triplicane is his gift. It is completely granite without the use of wood or iron.</p>
+            </div>
+          </div>
+
+          <div className='discover_main_cont_one'>
+
+            <div className='discover_main_cont_one1'>
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper" data-aos="fade-up">
+                <SwiperSlide><img src={food3} /></SwiperSlide>
+                <SwiperSlide><img src={food4} /></SwiperSlide>
+                <SwiperSlide><img src={food1} /></SwiperSlide>
+                <SwiperSlide><img src={food6} /></SwiperSlide>
+                <SwiperSlide><img src={food2} /></SwiperSlide>
+                <SwiperSlide><img src={food5} /></SwiperSlide>
+              </Swiper>
+            </div>
+            <div className='discover_main_cont_one2'>
+              <p data-aos="fade-up" >Food</p>
+              <p data-aos="fade-up" >The answer is always coffee in Chennai. Begin your day with filter coffee in Chennai. Have a crisp masala dosai with its accompanying South Indian dips for breakfast. At lunch time, the aroma of delectable biryanis also known as food of the Gods will summon you. Our recommendation is to succumb and take a stroll in the evening in the beach with some “sundal” or seasoned chick peas in hand. If local favourites might not be your flavour, the city is well equipped with world cuisines and all your favourite international fast food brands for when hunger strikes.</p>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div className='discover_main_cont_one'>
+
+            <div className='discover_main_cont_one1'>
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper" data-aos="fade-up">
+                <SwiperSlide><img src={shop3} /></SwiperSlide>
+                <SwiperSlide><img src={shop2} /></SwiperSlide>
+                <SwiperSlide><img src={shop1} /></SwiperSlide>
+                <SwiperSlide><img src={shop4} /></SwiperSlide>
+                <SwiperSlide><img src={shop5} /></SwiperSlide>
+              </Swiper>
+            </div>
+            <div className='discover_main_cont_one2'>
+              <p data-aos="fade-up" >Shopping</p>
+              <p data-aos="fade-up" >Shop till you drop is not just a quote when in Chennai. A variety of malls such as Phoenix Market city, VR Mall, Express Avenue etc.,  house every conceivable international brand in merchandise , food, cineplexes and entertainment zones. To get the complete local flavour try the shopping streets such as Ranganathan Street and Cotton Street for unbelievable deals .</p>
+            </div>
+          </div>
+
+
+          <div className='discover_main_cont_one'>
+            <div className='discover_main_cont_one1'>
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper" data-aos="fade-up">
+                <SwiperSlide><img src={things1} /></SwiperSlide>
+                <SwiperSlide><img src={things2} /></SwiperSlide>
+                <SwiperSlide><img src={things3} /></SwiperSlide>
+                {/* <SwiperSlide><img src={things4} /></SwiperSlide> */}
+                <SwiperSlide><img src={things5} /></SwiperSlide>
+              </Swiper>
+            </div>
+            <div className='discover_main_cont_one2'>
+              <p data-aos="fade-up" >Things to do</p>
+              <p data-aos="fade-up" >Chennai offers everyone plenty of fun activities. A city known for its beaches and the second longest beach in the world Marina is perfect for walking, balloon shooting, eating fresh catch and bajjis(fried vegetable snack), horse riding and simply dipping into the ocean. The backwaters at Muttukadu, offers some spectacular boating. If you are a book lover, head to the Anna Centenary Library, a reader’s paradise for some quiet time.</p>
+            </div>
+          </div>
+
+          <div className='discover_main_cont_one'>
+
+            <div className='discover_main_cont_one1'>
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper" data-aos="fade-up">
+                <SwiperSlide><img src={ST} /></SwiperSlide>
+                <SwiperSlide><img src={M1} /></SwiperSlide>
+                <SwiperSlide><img src={SS1} /></SwiperSlide>
+                <SwiperSlide><img src={D2} /></SwiperSlide>
+                <SwiperSlide><img src={CB1} /></SwiperSlide>
+
+              </Swiper>
+            </div>
+            <div className='discover_main_cont_one2'>
+              <p data-aos="fade-up" >Experience ECR</p>
+              <p data-aos="fade-up" >The East Coast Road originally denoted the coastal stretch between Chennai and Pondicherry. It holds some very interesting sights along the way namely the Crocodile bank, Dakshinachitra , Mahabalipuram and activities such as surfing, boating, go karting etc. Take a one day trip to experience this beautiful beach highway stretch. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
   )
 }
