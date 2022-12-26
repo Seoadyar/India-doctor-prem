@@ -2,7 +2,6 @@ import React from 'react'
 import allinfour from '../Assests/all-on-4.jpg'
 import allinfourone from '../Assests/all-on-4-treatments.png'
 import { TiTick } from 'react-icons/ti'
-
 import '../css/AllOn6.css'
 import { Helmet } from 'react-helmet'
 function AllOn6() {
