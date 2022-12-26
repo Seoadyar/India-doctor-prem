@@ -6,7 +6,7 @@ import Team2 from '../Assests/Team2.jpg'
 import Team3 from '../Assests/Team3.jpg'
 import Team4 from '../Assests/Team4.JPG'
 import Team5 from '../Assests/Team5.jpg'
-import drPrem from '../Assests/drPrem.jpg'
+import drPrem from '../Assests/doctor-prem-alex-Lawrence.jpg'
 
 import { TiTick } from 'react-icons/ti'
 
@@ -20,6 +20,7 @@ import TeamData from '../Data/TeamData'
 
 import '../css/team.css'
 import '../css/AllOn6.css'
+import { Helmet } from 'react-helmet'
 
 
 // ----------<< material UI dialog box----------
@@ -102,6 +103,14 @@ function TheTeam() {
 
     return (
         <div>
+
+            <Helmet>
+                <title>
+                Best Overseas Dental Treatment | Dental Tourism Implants - Dr.Prem
+                </title>
+                <meta name='description' content='Our Internationally trained dental expert team has over 10+ years of experience in providing the best dental care for all your dental needs. Provides you a complete dental solution'/>
+
+            </Helmet>
             <div className='on6_img_cont'>
                 <img src={Pic3} />
                 <div className='on6_img_sub_cont1'>
@@ -131,7 +140,7 @@ function TheTeam() {
             </div>
 
             <div className="all_on_6_des_title team_title" data-aos="fade-up">
-                <h1 >Our Doctor Panel</h1>
+                <h2 >Our Doctor Panel</h2>
                 <p></p>
             </div>
             <div className='theteam_main_cont'>

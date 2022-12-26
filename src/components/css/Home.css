@@ -178,7 +178,7 @@ slider */
     height: 75px;
 }
 
-.specs_title h1 {
+.specs_title h1,h2 {
     text-align: center;
     color: #54a2af;
     font-weight: bold;
@@ -217,7 +217,7 @@ slider */
     margin: 31px;
 }
 
-.s_icon_cont p {
+.s_icon_cont h3 {
     width: 175px;
     margin-top: 35px;
     font-size: 20px;
@@ -545,7 +545,7 @@ hospital images */
     .counts_main_cont{
         background-color: none;
     }
-    .specs_title h1 {
+    .specs_title h1,h2 {
         font-size: 26px;
         margin-top: 0px;
     }

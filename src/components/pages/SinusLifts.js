@@ -1,19 +1,25 @@
 import React from 'react'
-import on6one from '../Assests/on6one.jpg'
 import sinus1 from '../Assests/sinus1.png'
-import sinus2 from '../Assests/sinus2.png'
-import sinus3 from '../Assests/sinus3.png'
-import TL from '../Assests/TL.png'
-import sinuslift1 from '../Assests/sinuslift1.png'
+import sinus2 from '../Assests/sinus-lift-surgeries-1.png'
+import TL from '../Assests/missing-tooth.png'
+import sinuslift1 from '../Assests/sinus-lift-surgeries.png'
 import { TiTick } from 'react-icons/ti'
 
 
 import '../css/AllOn6.css'
+import { Helmet } from 'react-helmet'
 function SinusLifts() {
     return (
         <div>
+            <Helmet>
+                <title>
+                Sinus Lift Surgery | Sinus Augmentation | Dental Implant Clinic
+                </title>
+                <meta name='description' content='Need a dental implant but have been told that you do not have enough bone in your jaw? A sinus lift surgery can solve this problem.Book an Appointment Today'/>
+            </Helmet>
+
             <div className='on6_img_cont SinusLifts_banner_img'>
-                <img src={sinuslift1} />
+                <img src={sinuslift1} alt='Sinus Lift surgeries in India'/>
                 <div className='on6_img_sub_cont1'>
                     <div className='on6_img_sub_cont'>
                         {/* <h1 className='on6_title1'>Sinus Lifts </h1>
@@ -49,7 +55,7 @@ function SinusLifts() {
                 <div className='on6_div3_cont'>
 
                     <div className="all_on_6_des_title" data-aos="fade-up">
-                        <h1>Precautions after the sinus lift </h1>
+                        <h2>Precautions after the sinus lift </h2>
                         <p></p>
                     </div>
 
@@ -77,7 +83,7 @@ function SinusLifts() {
                 <div className='on6_div2_cont'>
 
                     <div className="all_on_6_des_title" data-aos="fade-up">
-                        <h1>Periodontal disease</h1>
+                        <h2>Periodontal disease</h2>
                         <p></p>
                     </div>
 
@@ -87,7 +93,7 @@ function SinusLifts() {
                             <p data-aos="fade-up">Those who have had periodontal disease might require a sinus lift. This is due to the disease's potential to affect the jaw's bones and cause significant jawbone loss in those who are affected. Any bone loss can be made up for with the sinus lift.</p>
                         </div>
                         <div className='on6_div2_main_cont_1'>
-                            <img src={sinus2} data-aos="fade-up"/>
+                            <img src={sinus2} data-aos="fade-up" alt='Sinus Lift surgeries at Doctor Prem Dental clinic'/>
                         </div>
                     </div>
 
@@ -101,13 +107,13 @@ function SinusLifts() {
                 <div className='on6_div1_cont'>
 
                     <div className="all_on_6_des_title" data-aos="fade-up">
-                        <h1>Tooth loss</h1>
+                        <h2>Tooth loss</h2>
                         <p></p>
                     </div>
 
                     <div className='on6_div1_main_cont'>
                         <div className='on6_div1_main_cont_1'>
-                            <img src={TL} data-aos="fade-up"/>
+                            <img src={TL} data-aos="fade-up" alt='Tooth implants in chennai'/>
                         </div>
                         <div className='on6_div1_main_cont_2'>
                             <p data-aos="fade-up">Loss of jaw bone can happen as a result of tooth loss. The nearby bone may occasionally be reabsorbed back into the body after a tooth loss. This only becomes a problem if someone needs an implant to replace a missing tooth. There might not be enough bone for the procedure if they put off getting the implant for too long. Therefore, a sinus lift can increase bone density and make adequate reinforcement for the implant.</p>

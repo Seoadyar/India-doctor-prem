@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { FaUserCircle } from "react-icons/fa";
 import TestimonialText from "../Json/TestimonialText.json";
-import Phases_involved from "../Assests/Tourism/Phases_involved.jpg";
+import Phases_involved from "../Assests/Tourism/dental-tourism.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "../css/Temp.css";
@@ -11,41 +11,42 @@ import "../css/Temp.css";
 // ----------Food---------
 import food1 from "../Assests/Tourism/Food/food1.jpg";
 import food2 from "../Assests/Tourism/Food/food2.jpg";
-import food3 from "../Assests/Tourism/Food/food3.png";
+import food3 from "../Assests/Tourism/Food/dental-tourism-chennai-3.png";
 import food4 from "../Assests/Tourism/Food/food4.jpg";
 import food5 from "../Assests/Tourism/Food/food5.jpg";
 import food6 from "../Assests/Tourism/Food/food6.jpg";
 //---------historical--------------
-import his1 from "../Assests/Tourism/Historical Buidings/his1.jpg";
+import his1 from "../Assests/Tourism/Historical Buidings/dental-tourism-chenna.jpg";
 import his2 from "../Assests/Tourism/Historical Buidings/his2.jpg";
 import his3 from "../Assests/Tourism/Historical Buidings/his3.jpg";
 import his4 from "../Assests/Tourism/Historical Buidings/his4.jpg";
 import his5 from "../Assests/Tourism/Historical Buidings/his5.jpg";
 //---------- religion------------
-import rel1 from "../Assests/Tourism/Religious Places/rel1.png";
+import rel1 from "../Assests/Tourism/Religious Places/dental-tourism-chennai-2.png";
 import rel2 from "../Assests/Tourism/Religious Places/rel2.jpg";
 import rel3 from "../Assests/Tourism/Religious Places/rel3.jpg";
 import rel4 from "../Assests/Tourism/Religious Places/rel4.jpg";
 //----------shop------------
 import shop1 from "../Assests/Tourism/Shopping/shop1.jpg";
 import shop2 from "../Assests/Tourism/Shopping/shop2.jpg";
-import shop3 from "../Assests/Tourism/Shopping/shop3.jpg";
+import shop3 from "../Assests/Tourism/Shopping/dental-tourism-chennai-4.jpg";
 import shop4 from "../Assests/Tourism/Shopping/shop4.jpg";
 import shop5 from "../Assests/Tourism/Shopping/shop5.jpg";
 //----------things to do-------------
-import things1 from "../Assests/Tourism/Things to do/things1.jpg";
+import things1 from "../Assests/Tourism/Things to do/dental-tourism-chennai-5.jpg";
 import things2 from "../Assests/Tourism/Things to do/things2.jpg";
 import things3 from "../Assests/Tourism/Things to do/things3.jpg";
 import things4 from "../Assests/Tourism/Things to do/things4.jpg";
 import things5 from "../Assests/Tourism/Things to do/things5.jpg";
 //------ECR----------------------
-import ST from "../Assests/Tourism/ECR/ST.jpg";
+import ST from "../Assests/Tourism/ECR/dental-tourism-chennai-6.jpg";
 import M1 from "../Assests/Tourism/ECR/M1.jpg";
 import SS1 from "../Assests/Tourism/ECR/SS1.jpg";
 import CB1 from "..//Assests/Tourism/ECR/CB1.jpg";
 import D2 from "../Assests/Tourism/ECR/D2.jpg";
 
 import "../css/InternationalPatient.css";
+import { Helmet } from "react-helmet";
 
 function walkThroughContent() {
   return (
@@ -75,9 +76,9 @@ function walkThroughContent() {
         </div>
       </div>
 
-      <h1 className="intern_pat_cont2_title">Phases involved </h1>
+      <h2 className="intern_pat_cont2_title">Phases involved </h2>
       <div className="intern_pat_cont2">
-        <img src={Phases_involved} alt="patients" />
+        <img src={Phases_involved} alt='Dental tourism in India' />
       </div>
     </div>
   );
@@ -92,7 +93,7 @@ function tourismContent() {
       <p>Here are some amazing spots you can visit while you are here in Chennai.</p> */}
       <div className="intern_pat_cont1 tourism1">
         <div className="intern_pat_cont12">
-          <h1 className="text-center font-weight-bold primary ">Tourism</h1>
+          <h2 className="text-center font-weight-bold primary ">Tourism</h2>
           <p className="intern_pat_cont12_text1">
             As the saying goes ‘Atithi Devo Bhava’, guests are our Gods in
             India.
@@ -123,7 +124,7 @@ function tourismContent() {
 
       {/* Discover Chennai */}
       <div className="all_on_6_des_title doctor_name_title" data-aos="fade-up">
-        <h1>Discover Chennai</h1>
+        <h2>Discover Chennai</h2>
         <p></p>
       </div>
 
@@ -142,7 +143,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={his1} data-aos="fade-up" />
+                  <img src={his1} data-aos="fade-up" alt='historical places to visit' />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={his2} data-aos="fade-up" />
@@ -156,7 +157,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <p data-aos="fade-up">Historical Buidings</p>
+              <h4 data-aos="fade-up">Historical Buidings</h4>
               <p data-aos="fade-up">
                 Chennai is also home to colonial reminders. Some outstanding
                 architecture includes the Fort St. George, the first English
@@ -186,7 +187,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={rel1} />
+                  <img src={rel1} alt='Religious places to visit' />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={rel2} />
@@ -200,7 +201,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <p data-aos="fade-up">Religious Places</p>
+              <h4 data-aos="fade-up">Religious Places</h4>
               <p data-aos="fade-up">
                 Chennai’s religious places are some of the world’s famous
                 heritage structures. The Kapaleeswarar Temple, located in
@@ -233,7 +234,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={food3} />
+                  <img src={food3} alt='Food and shopping in chennai'/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={food4} />
@@ -253,7 +254,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <p data-aos="fade-up">Food</p>
+              <h4 data-aos="fade-up">Food</h4>
               <p data-aos="fade-up">
                 The answer is always coffee in Chennai. Begin your day with
                 filter coffee in Chennai. Have a crisp masala dosai with its
@@ -281,7 +282,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={shop3} />
+                  <img src={shop3} alt='dental-tourism-chennai-4 Food and shopping in chennai-1' />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={shop2} />
@@ -298,7 +299,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <p data-aos="fade-up">Shopping</p>
+              <h4 data-aos="fade-up">Shopping</h4>
               <p data-aos="fade-up">
                 Shop till you drop is not just a quote when in Chennai. A
                 variety of malls such as Phoenix Market city, VR Mall, Express
@@ -323,7 +324,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={things1} />
+                  <img src={things1} alt='Food and shopping in chennai-2'/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={things2} />
@@ -338,7 +339,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <p data-aos="fade-up">Things to do</p>
+              <h4 data-aos="fade-up">Things to do</h4>
               <p data-aos="fade-up">
                 Chennai offers everyone plenty of fun activities. A city known
                 for its beaches and the second longest beach in the world Marina
@@ -364,7 +365,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={ST} />
+                  <img src={ST} alt='Dental tourism places to visit'/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={M1} />
@@ -414,9 +415,9 @@ function testimonialContent() {
   return (
     <div className="intern_pat_cont1 inter_pat_testimo" data-aos="fade-up">
       <div className="intern_pat_cont12">
-        <h2 className="mt-5 text-center font-weight-bold primary inter_pat_testimo_title">
+        <h3 className="mt-5 text-center font-weight-bold primary inter_pat_testimo_title">
           Testimonials
-        </h2>
+        </h3>
         <div>
           <Slider {...settings}>
             {TestimonialText.map((data, i) => {
@@ -450,6 +451,12 @@ function testimonialContent() {
 function InternationalPatient() {
   return (
     <React.Fragment>
+      <Helmet>
+        <title>
+        Dental Tourism in India | Best Dental Implants in India
+        </title>
+        <meta name='description' content='We are seeing more and more patients coming to us from India and overseas to have their best dental implant treatments performed by Dr.Prem Alex Lawrence.'/>
+      </Helmet>
       <video
         src="https://firebasestorage.googleapis.com/v0/b/apollo-dental.appspot.com/o/International_Patients.mp4?alt=media&token=9bf2a845-76a8-4f97-b5d5-4a38ea0a461c"
         style={{ width: "100%", height: "100%" }}

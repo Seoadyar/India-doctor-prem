@@ -1,20 +1,21 @@
 import React from 'react'
-import ALLONE from '../Assests/ALLONE.png'
-import ALLONEF from '../Assests/ALLONEF.png'
-import ALLONEG from '../Assests/ALLONEG.png'
-import on6four from '../Assests/on6four.jpg'
-import allinfour from '../Assests/allinfour.jpg'
-import allinsix from '../Assests/allinsix.png'
-import allinfourone from '../Assests/allinfourone.png'
-import Picture6 from '../Assests/Picture6.png'
+import allinfour from '../Assests/all-on-4.jpg'
+import allinfourone from '../Assests/all-on-4-treatments.png'
 import { TiTick } from 'react-icons/ti'
 
 import '../css/AllOn6.css'
+import { Helmet } from 'react-helmet'
 function AllOn6() {
   return (
     <div>
+      <Helmet>
+        <title>
+        All On 4 Dental Implants Treatment in Chennai - Doctor Prem
+        </title>
+        <meta name='description' content='All-On-4 is a dental implant treatment for giving fixed teeth to the patient in which “All” teeth are being supported “On 4” dental implants.'/>
+      </Helmet>
       <div className='on6_img_cont'>
-        <img data-aos="Zoom-out-up" src={allinfour} />
+        <img data-aos="Zoom-out-up" src={allinfour} alt='All on 4 dental treatment in Chennai'/>
         <div className='on6_img_sub_cont1'>
           <div className='on6_img_sub_cont'>
             {/* <h1 className='on6_title1'>All-on-4 Dental Implants</h1>
@@ -62,7 +63,7 @@ function AllOn6() {
         <div className='on6_div2_cont'>
 
           <div className="all_on_6_des_title on4_2_title_all_on_6_des_title" data-aos="fade-up">
-            <h1>About All-On-4</h1>
+            <h2>About All-On-4</h2>
             <p></p>
           </div>
 
@@ -75,7 +76,7 @@ function AllOn6() {
               <p>The All-On-4 implants are positioned at an angle to allow us to avoid the jawbone's unhealthy areas. This is done so that bone grafting is not necessary. We also expect this to stably support a prosthesis placed just a few days after the operation.</p>
             </div>
             <div className='on6_div2_main_cont_1'>
-              <img data-aos="fade-up" src={allinfourone} />
+              <img data-aos="fade-up" src={allinfourone} alt='All on 4 dental treatment in Hyderabad'/>
             </div>
           </div>
 
@@ -90,7 +91,7 @@ function AllOn6() {
         <div className='on6_div3_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>The Process</h1>
+            <h2>The Process</h2>
             <p></p>
           </div>
 
@@ -139,7 +140,7 @@ function AllOn6() {
         <div className='on6_div3_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>Advantages for All-On-4</h1>
+            <h2>Advantages for All-On-4</h2>
             <p></p>
           </div>
 
@@ -197,7 +198,7 @@ function AllOn6() {
         <div className='on6_div3_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>ALL-on-4 Implants FAQs</h1>
+            <h2>ALL-on-4 Implants FAQs</h2>
             <p></p>
           </div>
 

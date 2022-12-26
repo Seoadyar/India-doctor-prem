@@ -3,6 +3,7 @@ import { CircularProgress, Chip } from '@mui/material';
 import { Link } from 'react-router-dom';
 import ArchiveContent from './archives';
 import BlogList from '../../Json/blog.json';
+import Helmet from 'react-helmet';
 
 const blogListCount = 5;
 const recentBlogs = BlogList.sort((a, b) => new Date(b.postedAt) - new Date(a.postedAt));
@@ -35,6 +36,12 @@ function Blog() {
     console.log(expansion);
     return (
         <div>
+            <Helmet>
+                <title>
+                Blogs - Dental Implants and Periodontics in Chennai | Doctor Prem
+                </title>
+                <meta name='description' content='Get the latest and advanced dental treatments. Experience quality dental care every time. Call or Whatsapp +91 89391 11172 to book your appointment'/>
+            </Helmet>
             <div className='page-container py-5'>
                 <div className='blog'>
                     <div className='row'>

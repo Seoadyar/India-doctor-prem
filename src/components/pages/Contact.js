@@ -6,15 +6,22 @@ import ContactImage from '../Assests/contact.jpg';
 import map1 from '../Assests/map1.png'
 import map2 from '../Assests/map2.png'
 import map3 from '../Assests/map3.png'
+import { Helmet } from 'react-helmet';
 
 function Contact() {
     return (
         <div>
+            <Helmet>
+                <title>
+                Dental Hospitals in Chennai | Dental Tourism India | Doctor Prem
+                </title>
+                <meta name='description' content='Looking for permanent full-mouth dental implants in Chennai? Book a consultation with Dr.Prem to get your permanent teeth within just 24 hours.'/>
+            </Helmet>
             <div className='page-container py-5'>
                 <div className='contact'>
                     <div className="text-center">
-                        <h3 className='font-weight-bold primary'>Contact Us</h3>
-                        <div>Get your Consultation Done</div>
+                        <h1 className='font-weight-bold primary'>Contact Us</h1>
+                        <div><h1 style={{fontSize:"19px"}}>Get your Consultation Done</h1></div>
                     </div>
                     <div className='row mt-4'>
                         <div className='col-lg-6 col-sm-6 mb-4'>

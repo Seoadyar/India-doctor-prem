@@ -1,18 +1,22 @@
 import React from 'react'
-import DPone from '../Assests/DPone.png'
-import DPtwo from '../Assests/DPtwo.png'
-import on6three from '../Assests/on6three.jpg'
-import on6four from '../Assests/on6four.jpg'
-import PTypes from '../Assests/PTypes.png'
+import DPone from '../Assests/ceramic-bridge.png'
+import DPtwo from '../Assests/dental-prostheses-1.png'
+import PTypes from '../Assests/dental-prostheses.png'
 import { TiTick } from 'react-icons/ti'
-
+import {Helmet} from 'react-helmet'
 
 import '../css/AllOn6.css'
 function ProsthesisTypes() {
   return (
     <div>
+      <Helmet>
+        <title>
+        Fixed Dental Prosthesis - Types | Procedure - Doctor Prem
+        </title>
+        <meta name='description' content='Dental prosthesis done by our expert team to replace missing teeth, cover up cosmetic imperfections, and protect vulnerable teeth from further damage'/>
+      </Helmet>
       <div className='on6_img_cont'>
-        <img data-aos="fade-up" src={PTypes} />
+        <img data-aos="fade-up" src={PTypes} alt='Dental prostheses in India' />
         <div className='on6_img_sub_cont1'>
           <div className='on6_img_sub_cont'>
             {/* <h1 className='on6_title1'>Prosthesis type </h1>
@@ -32,7 +36,7 @@ function ProsthesisTypes() {
 
           <div className='on6_div1_main_cont'>
             <div className='on6_div1_main_cont_1'>
-              <img data-aos="fade-up" src={DPtwo} />
+              <img data-aos="fade-up" src={DPtwo} alt='Dental prostheses at Doctor Prem Dental clinic'/>
             </div>
             <div className='on6_div1_main_cont_2'>
               <p data-aos="fade-up">Dental prosthetics are dental appliances used to restore or replace missing or damaged teeth. Dental prostheses are capable of much more than just enhancing your smile; they can also lessen the risk of gum disease in the event of a missing tooth, facilitate chewing, and keep the jawbone from deteriorating.</p>
@@ -47,18 +51,18 @@ function ProsthesisTypes() {
         <div className='on6_div2_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>Types of Dental prostheses</h1>
+            <h2>Types of Dental prostheses</h2>
             <p></p>
           </div>
 
           <div className='on6_div2_main_cont'>
 
             <div className='on6_div2_main_cont_2'>
-              <h1 data-aos="fade-up">Ceramic Bridges:</h1>
+              <h2 data-aos="fade-up">Ceramic Bridges:</h2>
               <p data-aos="fade-up">The All-On-6 dental implants help replace all of a patient's teeth with dental implants. Similar to an All-On-4 implant procedure in many ways, an All-On-6 procedure is more time intensive and complex and provides high stability and greater strength for patients with few missing teeth. It is done with 6 surgical implants placed on the upper and lower jaw with a stable prosthetic dental arch. This procedure is ideal for patients with low bone density and completely decayed or damaged teeth.</p>
             </div>
             <div className='on6_div2_main_cont_1'>
-              <img data-aos="fade-up" src={DPone} />
+              <img data-aos="fade-up" src={DPone} alt='Types-of Dental prosthesesh'/>
             </div>
           </div>
 
@@ -72,7 +76,7 @@ function ProsthesisTypes() {
         <div className='on6_div3_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>Benefits of a ceramic bridge</h1>
+            <h2>Benefits of a ceramic bridge</h2>
             <p></p>
           </div>
 
@@ -109,7 +113,7 @@ function ProsthesisTypes() {
         <div className='on6_div3_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>Fixed Bridge advantages</h1>
+            <h2>Fixed Bridge advantages</h2>
             <p></p>
           </div>
 

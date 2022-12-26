@@ -6,7 +6,6 @@ import { Route, Routes } from 'react-router-dom'
 import './components/css/BlogContact.css'
 import whatsapp from './components/Assests/whatsapp.png'
 import './app.css'
-import Help from './components/pages/Help';
 import Spinner from './components/pages/Spinner';
 
 const Home = React.lazy(() => import("./components/pages/Home"));

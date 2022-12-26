@@ -1,18 +1,22 @@
 import React from 'react'
-import GSone from '../Assests/GSone.png'
-import on6two from '../Assests/on6two.jpeg'
-import GStwo from '../Assests/GStwo.png'
-import on6four from '../Assests/on6four.jpg'
-import BGC from '../Assests/BGC.png'
+import GSone from '../Assests/guided-surgeries-1.png'
+import GStwo from '../Assests/guided-surgeries.png'
 import { TiTick } from 'react-icons/ti'
 
 
 import '../css/AllOn6.css'
+import { Helmet } from 'react-helmet'
 function GuidedSurgeries() {
     return (
         <div>
+            <Helmet>
+                <title>
+                Guided Implant Surgery | Dental Implants in Chennai - Dr.Prem
+                </title>
+                <meta name='description' content='Computer-guided surgery helps dentists achieve predictable and safe implant placements. Experience Quality, Service & Support from Us at an affordable cost.'/>
+            </Helmet>
             <div className='on6_img_cont'>
-                <img data-aos="fade-up" src={GStwo} />
+                <img data-aos="fade-up" src={GStwo} alt='Guided surgeries in India'/>
                 <div className='on6_img_sub_cont1'>
                     <div className='on6_img_sub_cont'>
                         {/* <h1 className='on6_title1'>Guided Surgeries </h1>
@@ -34,7 +38,7 @@ function GuidedSurgeries() {
 
                     <div className='on6_div1_main_cont'>
                         <div className='on6_div1_main_cont_1'>
-                            <img data-aos="fade-up" src={GSone} />
+                            <img data-aos="fade-up" src={GSone} alt='Guided surgeries at Doctor Prem Dental clinic'/>
                         </div>
                         <div className='on6_div1_main_cont_2'>
                             <p data-aos="fade-up">Three-dimensional (3D) imaging, computerized tomography (CT) scans, CAD and CAM computer imaging, and digital x-rays are among the technologies frequently used in computer-guided dental implant surgery.</p>
@@ -51,7 +55,7 @@ function GuidedSurgeries() {
                 <div className='on6_div3_cont'>
 
                     <div className="all_on_6_des_title" data-aos="fade-up">
-                        <h1>How does the procedure work?</h1>
+                        <h2>How does the procedure work?</h2>
                         <p></p>
                     </div>
 
