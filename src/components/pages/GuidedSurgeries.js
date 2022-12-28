@@ -1,6 +1,6 @@
 import React from 'react'
 import GSone from '../Assests/guided-surgeries-1.png'
-import GStwo from '../Assests/guided-surgeries.png'
+import GStwo from '../Assests/guided-surgerie.png'
 import { TiTick } from 'react-icons/ti'
 
 
@@ -32,7 +32,7 @@ function GuidedSurgeries() {
                 <div className='on6_div1_cont'>
 
                     <div className="all_on_6_des_title" data-aos="fade-up">
-                        <h1>Guided Surgeries </h1>
+                        <h1>Guided Implant Surgeries </h1>
                         <p></p>
                     </div>
 

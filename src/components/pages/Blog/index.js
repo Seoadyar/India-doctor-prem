@@ -45,6 +45,7 @@ function Blog() {
             <div className='page-container py-5'>
                 <div className='blog'>
                     <div className='row'>
+                        <h1>Blog Section</h1>
                         <div className="col-md-9 col-lg-10">
                             {loader === true && <div className="text-center"><CircularProgress color="secondary" /></div>}
                             {!loader && yeardisplay !== "" &&

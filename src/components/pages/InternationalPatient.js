@@ -157,7 +157,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <h4 data-aos="fade-up">Historical Buidings</h4>
+              <h4 data-aos="fade-up">Historical Buildings</h4>
               <p data-aos="fade-up">
                 Chennai is also home to colonial reminders. Some outstanding
                 architecture includes the Fort St. George, the first English
@@ -382,7 +382,7 @@ function tourismContent() {
               </Swiper>
             </div>
             <div className="discover_main_cont_one2">
-              <p data-aos="fade-up">Experience ECR</p>
+              <h4 data-aos="fade-up">Experience ECR</h4>
               <p data-aos="fade-up">
                 The East Coast Road originally denoted the coastal stretch
                 between Chennai and Pondicherry. It holds some very interesting

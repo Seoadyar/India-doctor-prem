@@ -67,7 +67,7 @@ function App() {
               }
             />
             <Route
-              path="/AllOn4"
+              path="/all-on4"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <AllOn4 />
@@ -75,7 +75,7 @@ function App() {
               }
             />
             <Route
-              path="/AllOn6"
+              path="/all-on6"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <AllOn6 />
@@ -83,7 +83,7 @@ function App() {
               }
             />
             <Route
-              path="/Asesthetic"
+              path="/implants/aesthetic"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <Asesthetic />
@@ -108,7 +108,7 @@ function App() {
               }
             />
             <Route
-              path="/Contact"
+              path="/contact"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <Contact />
@@ -116,7 +116,7 @@ function App() {
               }
             />
             <Route
-              path="/GuidedSurgeries"
+              path="/implants/guided-surgeries"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <GuidedSurgeries />
@@ -124,7 +124,7 @@ function App() {
               }
             />
             <Route
-              path="/MeetDrPrem"
+              path="/advantage/meet-drprem"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <MeetDrPrem />
@@ -140,7 +140,7 @@ function App() {
               }
             />
             <Route
-              path="/OurSolution"
+              path="/advantage/our-solution"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <OurSolution />
@@ -148,7 +148,7 @@ function App() {
               }
             />
             <Route
-              path="/ProsthesisTypes"
+              path="/implants/prosthesis-types"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <ProsthesisTypes />
@@ -156,7 +156,7 @@ function App() {
               }
             />
             <Route
-              path="/SinusLifts"
+              path="/implants/sinus-lifts"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <SinusLifts />
@@ -172,7 +172,7 @@ function App() {
               }
             />
             <Route
-              path="/TheTeam"
+              path="/advantage/the-team"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <TheTeam />
@@ -180,7 +180,7 @@ function App() {
               }
             />
             <Route
-              path="/ToothInDay"
+              path="/implants/tooth-in-day"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <ToothInDay />
@@ -188,7 +188,7 @@ function App() {
               }
             />
             <Route
-              path="/InternationalPatients"
+              path="/inter-national-patients"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <InternationalPatient />

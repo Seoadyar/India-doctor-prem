@@ -20,8 +20,8 @@ function Contact() {
             <div className='page-container py-5'>
                 <div className='contact'>
                     <div className="text-center">
-                        <h1 className='font-weight-bold primary'>Contact Us</h1>
-                        <div><h1 style={{fontSize:"19px"}}>Get your Consultation Done</h1></div>
+                        <h1 className='font-weight-bold primary'>Contact Us | Get your Consultation Done</h1>
+                        {/* <div><h1 style={{fontSize:"19px"}}></h1></div> */}
                     </div>
                     <div className='row mt-4'>
                         <div className='col-lg-6 col-sm-6 mb-4'>

@@ -188,7 +188,7 @@ function Home() {
       {/* why choose us */}
       <div className="main_titile_cont firsts_main_titile_cont choose_title_cont ">
         <div className="specs_title chooseUs" data-aos="fade-up">
-          <h1>Why Choose Us</h1>
+          <h1>Why Choose Implants By Doctor Prem</h1>
           <p></p>
         </div>
       </div>

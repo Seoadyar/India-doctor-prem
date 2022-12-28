@@ -9,12 +9,12 @@ function AllOn6() {
     <div>
       <Helmet>
         <title>
-        All On 4 Dental Implants Treatment in Chennai - Doctor Prem
+          All On 4 Dental Implants Treatment in Chennai - Doctor Prem
         </title>
-        <meta name='description' content='All-On-4 is a dental implant treatment for giving fixed teeth to the patient in which “All” teeth are being supported “On 4” dental implants.'/>
+        <meta name='description' content='All-On-4 is a dental implant treatment for giving fixed teeth to the patient in which “All” teeth are being supported “On 4” dental implants.' />
       </Helmet>
       <div className='on6_img_cont'>
-        <img data-aos="Zoom-out-up" src={allinfour} alt='All on 4 dental treatment in Chennai'/>
+        <img data-aos="Zoom-out-up" src={allinfour} alt='All on 4 dental treatment in Chennai' />
         <div className='on6_img_sub_cont1'>
           <div className='on6_img_sub_cont'>
             {/* <h1 className='on6_title1'>All-on-4 Dental Implants</h1>
@@ -23,13 +23,13 @@ function AllOn6() {
         </div>
       </div>
 
- 
+
 
       <div className='on6_div33_cont'>
         <div className='on6_div3_cont'>
 
           <div className="all_on_6_des_title" data-aos="fade-up">
-            <h1>Need for All-On-4 Implants</h1>
+            <h3>Need for All-On-4 Implants</h3>
             <p></p>
           </div>
 
@@ -75,7 +75,7 @@ function AllOn6() {
               <p>The All-On-4 implants are positioned at an angle to allow us to avoid the jawbone's unhealthy areas. This is done so that bone grafting is not necessary. We also expect this to stably support a prosthesis placed just a few days after the operation.</p>
             </div>
             <div className='on6_div2_main_cont_1'>
-              <img data-aos="fade-up" src={allinfourone} alt='All on 4 dental treatment in Hyderabad'/>
+              <img data-aos="fade-up" src={allinfourone} alt='All on 4 dental treatment in Hyderabad' />
             </div>
           </div>
 
@@ -84,7 +84,7 @@ function AllOn6() {
 
 
 
-    
+
 
       <div className='on6_div33_cont'>
         <div className='on6_div3_cont'>
@@ -98,12 +98,12 @@ function AllOn6() {
             <div className='on6_div3_main_cont_2 on4_on6_div3_main_cont_2 on4_on6_div3_main_cont_2 on4_on6_div3_main_cont_2'>
               <ul>
                 <li className='the_process_cont_li'>
-                When a tooth is lost, its roots are replaced with tiny titanium screws screwed into the jawbone. All-On-4 implants are inserted in a minimally invasive procedure.  The following are the stages in this process:
+                  When a tooth is lost, its roots are replaced with tiny titanium screws screwed into the jawbone. All-On-4 implants are inserted in a minimally invasive procedure.  The following are the stages in this process:
                 </li>
                 <li data-aos="fade-up">
                   <TiTick className="on6_tick_icon" />
                   <div>
-                   <p>Assess patient eligibility through preliminary investigation.</p>
+                    <p>Assess patient eligibility through preliminary investigation.</p>
                   </div>
                 </li>
                 <li data-aos="fade-up">
@@ -115,7 +115,7 @@ function AllOn6() {
                 <li data-aos="fade-up">
                   <TiTick className="on6_tick_icon" />
                   <div>
-                   <p>The All-On-4 treatment surgery is performed. Patient is placed under sedation. 4 implants on the jaw sections are fixed with acrylic arches/bridges. The procedure is completed in three days. At Apollo Dental Thoraipakkam, we use Straumann/ Nobel biocare/Adin implants.</p>
+                    <p>The All-On-4 treatment surgery is performed. Patient is placed under sedation. 4 implants on the jaw sections are fixed with acrylic arches/bridges. The procedure is completed in three days. At Apollo Dental Thoraipakkam, we use Straumann/ Nobel biocare/Adin implants.</p>
                   </div>
                 </li>
                 <li data-aos="fade-up">
@@ -187,7 +187,7 @@ function AllOn6() {
 
         </div>
       </div>
-      
+
 
 
 

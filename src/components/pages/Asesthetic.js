@@ -33,7 +33,7 @@ function Asesthetic() {
                 <div className='on6_div1_cont'>
 
                     <div className="all_on_6_des_title" data-aos="fade-up">
-                        <h1>Aesthetic Implants</h1>
+                        <h1>Aesthetic Dental Implants</h1>
                         <p></p>
                     </div>
 

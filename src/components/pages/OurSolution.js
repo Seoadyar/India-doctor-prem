@@ -40,7 +40,7 @@ function OurSolution() {
             <div className="on6_div1_main_cont_1">
               <img
                 src={oursolution1}
-                alt="doctor-prem-dental-careDental implants in chennai"/>
+                alt="doctor-prem-dental-careDental implants in chennai" />
             </div>
             <div className="on6_div1_main_cont_2">
               <p>
