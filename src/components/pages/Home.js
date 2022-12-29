@@ -306,7 +306,7 @@ function Home() {
       <div className="specs_cont">
         <div className="specs_main_cont">
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/AllOn4">
+            <a href="https://www.doctorprem.com/all-on4">
               {" "}
               <img src={spec1} alt='All-On-4 Implant Treatment in chennai'/>
             </a>
@@ -314,42 +314,42 @@ function Home() {
           </div>
 
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/AllOn6">
+            <a href="https://www.doctorprem.com/all-on6">
               {" "}
               <img src={spec2} alt='All-On-6 Implant Treatment in chennai'/>
             </a>
             <h3>All-On-6 Implant Treatment</h3>
           </div>
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/GuidedSurgeries">
+            <a href="https://www.doctorprem.com/implants/guided-surgeries">
               {" "}
               <img src={spec3} alt='guided-surgeries in India' />
             </a>
             <h3>Guided Surgeries</h3>
           </div>
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/Asesthetic">
+            <a href="https://www.doctorprem.com/implants/aesthetic">
               {" "}
               <img src={spec4} alt='Aesthetic dental implants treatments in Chennai' />
             </a>
             <h3>Aesthetic Implants </h3>
           </div>
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/SinusLifts">
+            <a href="https://www.doctorprem.com/implants/sinus-lifts">
               {" "}
               <img src={spec5} alt='sinus lift dental treatments'/>
             </a>
             <h3>Sinus Lifts </h3>
           </div>
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/ThoothOnDay">
+            <a href="https://www.doctorprem.com/implants/tooth-in-day">
               {" "}
               <img src={spec6} alt='Tooth in a day dental treatment in chennai'/>
             </a>
             <h3>Tooth-in-a-Day</h3>
           </div>
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https:/apollodental.netlify.app/ProsthesisTypes">
+            <a href="https://www.doctorprem.com/implants/prosthesis-types">
               {" "}
               <img src={spec7} alt='prosthesis treatment' />
             </a>
