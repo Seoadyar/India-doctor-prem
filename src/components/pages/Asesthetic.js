@@ -1,10 +1,7 @@
 import React from 'react'
-import on6one from '../Assests/on6one.jpg'
-import on6two from '../Assests/on6two.jpeg'
+import on6two from '../Assests/on6two.png'
 import on6three from '../Assests/aesthetic-dentist.jpg'
-import on6four from '../Assests/on6four.jpg'
 import Aimplant from '../Assests/aesthetic-dentist-1.png'
-import { TiTick } from 'react-icons/ti'
 
 
 import '../css/AllOn6.css'
