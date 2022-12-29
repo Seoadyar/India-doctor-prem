@@ -4,7 +4,7 @@ import Pic3 from '../Assests/Pic3.jpg'
 import Team1 from '../Assests/Team1.jpg'
 import Team2 from '../Assests/Team2.jpg'
 import Team3 from '../Assests/Team3.jpg'
-import Team4 from '../Assests/Team4.JPG'
+import Team4 from '../Assests/Team4.jpg'
 import Team5 from '../Assests/Team5.jpg'
 import drPrem from '../Assests/doctor-prem-alex-Lawrence.jpg'
 
