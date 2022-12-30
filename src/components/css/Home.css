@@ -583,10 +583,11 @@ hospital images */
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 121px;
+        width: 179px;
         height: 134px;
         margin: 1px;
         margin-bottom: 31px;
+        margin-top: 33px;
     }
     .s_icon_cont p {
         width: 91px;
