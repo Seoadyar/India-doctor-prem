@@ -188,7 +188,7 @@ function App() {
               }
             />
             <Route
-              path="/inter-national-patients"
+              path="/internationalpatients"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <InternationalPatient />

@@ -45,7 +45,7 @@ function Navibar() {
               <NavDropdown.Item as={Link} to='/implants/tooth-in-day' eventKey="11">TOOTH-IN-A-DAY</NavDropdown.Item>
 
             </NavDropdown>
-            <Nav.Link as={Link} to='/inter-national-patients' eventKey="12">INTERNATIONAL PATIENTS</Nav.Link>
+            <Nav.Link as={Link} to='/internationalpatients' eventKey="12">INTERNATIONAL PATIENTS</Nav.Link>
             <Nav.Link as={Link} to='/blog' eventKey="13">BLOGS</Nav.Link>
 
             <Nav.Link as={Link} to='/contact' className="contact_link" eventKey="14">CONTACT</Nav.Link>
