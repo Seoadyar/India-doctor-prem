@@ -75,7 +75,13 @@ slider */
 
 
 /* Whychoose us  */
- 
+ .whychooseusspacing{
+    padding-top: 5px !important;
+    padding-bottom: 6px !important;
+ }
+ .whychooseusspacing h1{
+    font-size:30px;
+ }
 .why_choose_cont {
     display: flex;
     justify-content: center;
@@ -219,7 +225,7 @@ slider */
 
 .s_icon_cont h3 {
     width: 175px;
-    margin-top: 35px;
+    margin-top:17px;
     font-size: 20px;
     color: #54a2af;
     font-weight: 600;
@@ -501,6 +507,13 @@ hospital images */
 
 /*--------- 600px  responsive ------------------------------- */
 @media(max-width:600px){
+    .whychooseusspacing{
+        padding-top:28px !important;
+        padding-bottom:15px !important;
+     }
+     .whychooseusspacing h1{
+        font-size:25px !important;
+     }
     .chooseUs {
         background-color: transparent !important;
         /* padding-bottom: 28px; */
@@ -587,7 +600,7 @@ hospital images */
         height: 134px;
         margin: 1px;
         margin-bottom: 31px;
-        margin-top: 33px;
+        margin-top:8px;
     }
     .s_icon_cont p {
         width: 91px;
@@ -615,7 +628,7 @@ hospital images */
     }
     .counts_1 p:last-child {
         width: 97px;
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 0;
         margin-top: -7px;
     }

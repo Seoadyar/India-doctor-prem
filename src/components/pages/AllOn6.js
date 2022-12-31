@@ -1,7 +1,8 @@
 import React from "react";
 
-import ALLtwo from "../Assests/all-on-6-treatment-1.png";
-import ALLthree from "../Assests/all-on-6-treatments.png";
+
+import ALLthree from "../Assests/all-on-6-treatment-1.png";
+import ALLtwo from "../Assests/all-on-6-treatments.png";
 import allinsix from "../Assests/all-on-6.png";
 import { TiTick } from "react-icons/ti";
 
