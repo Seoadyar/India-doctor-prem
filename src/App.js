@@ -67,7 +67,7 @@ function App() {
               }
             />
             <Route
-              path="/all-on4"
+              path="/all-on-4"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <AllOn4 />
@@ -75,7 +75,7 @@ function App() {
               }
             />
             <Route
-              path="/all-on6"
+              path="/all-on-6"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <AllOn6 />
@@ -188,7 +188,7 @@ function App() {
               }
             />
             <Route
-              path="/internationalpatients"
+              path="/international-patients"
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <InternationalPatient />

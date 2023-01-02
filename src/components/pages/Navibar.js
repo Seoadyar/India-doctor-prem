@@ -32,9 +32,9 @@ function Navibar() {
             </NavDropdown>
 
 
-            <Nav.Link as={Link} to='/all-on4' eventKey="5">ALL-ON-4</Nav.Link>
+            <Nav.Link as={Link} to='/all-on-4' eventKey="5">ALL-ON-4</Nav.Link>
 
-            <Nav.Link as={Link} to='/all-on6' eventKey="6">All-ON-6</Nav.Link>
+            <Nav.Link as={Link} to='/all-on-6' eventKey="6">All-ON-6</Nav.Link>
 
             <NavDropdown title="IMPLANTS" id="collasible-nav-dropdown">
                
@@ -45,7 +45,7 @@ function Navibar() {
               <NavDropdown.Item as={Link} to='/implants/tooth-in-day' eventKey="11">TOOTH-IN-A-DAY</NavDropdown.Item>
 
             </NavDropdown>
-            <Nav.Link as={Link} to='/internationalpatients' eventKey="12">INTERNATIONAL PATIENTS</Nav.Link>
+            <Nav.Link as={Link} to='/international-patients' eventKey="12">INTERNATIONAL PATIENTS</Nav.Link>
             <Nav.Link as={Link} to='/blog' eventKey="13">BLOGS</Nav.Link>
 
             <Nav.Link as={Link} to='/contact' className="contact_link" eventKey="14">CONTACT</Nav.Link>
