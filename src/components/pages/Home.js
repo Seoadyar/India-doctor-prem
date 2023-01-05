@@ -306,7 +306,7 @@ function Home() {
       <div className="specs_cont">
         <div className="specs_main_cont">
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https://www.doctorprem.com/all-on4">
+            <a href="https://www.doctorprem.com/all-on-4">
               {" "}
               <img src={spec1} alt='All-On-4 Implant Treatment in chennai'/>
             </a>
@@ -314,7 +314,7 @@ function Home() {
           </div>
 
           <div className="s_icon_cont" data-aos="fade-up">
-            <a href="https://www.doctorprem.com/all-on6">
+            <a href="https://www.doctorprem.com/all-on-6">
               {" "}
               <img src={spec2} alt='All-On-6 Implant Treatment in chennai'/>
             </a>
