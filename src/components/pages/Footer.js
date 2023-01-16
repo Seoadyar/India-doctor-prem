@@ -75,7 +75,7 @@ function Footer() {
               <div className="add_1_qr_line">
                 <h4 className="host_name"> Gachibowli</h4>
                 <p>
-                  3rd Floor, Plot #20 Telecom Nagar, Opp. South India Shopping
+                  4th Floor, Plot #20 Telecom Nagar, Opp. South India Shopping
                   Mall Gachibowli, Hyderabad - 500032 Telangana
                 </p>
                 <div className="footer_socialm_cont">
