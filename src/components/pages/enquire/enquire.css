@@ -124,8 +124,9 @@
 
 
 @media(max-width:426px){
+ 
     .enquireFormContainer {
-        min-width: 273px;
-        width: 100%;
+        width:300px;
+        transition: width 0.2s;
     }
 }
