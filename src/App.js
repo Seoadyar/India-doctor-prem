@@ -8,6 +8,7 @@ import "./app.css";
 import Spinner from "./components/pages/Spinner";
 
 import ReactGA from "react-ga";
+import Enquire from "./components/pages/enquire/Enquire";
 const TRACKING_ID = "G-JCKC9E5BH5"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
@@ -206,7 +207,8 @@ function App() {
           >
             <img src={whatsapp} />
           </a>
-          {/* <Help /> */}
+          {/* enquire*/}
+          <Enquire />
         </div>
       )}
     </div>
