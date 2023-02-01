@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './enquire.css';
 import { FiMail } from 'react-icons/fi'
 import { Button } from '@mui/material';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
 import axios from 'axios';
 
 function Enquire() {
@@ -9,6 +11,7 @@ function Enquire() {
 
     const [name, setName] = useState("")
     const [mail, setMail] = useState("")
+    const [country, setCountry] = useState('');
     const [phno, setPhno] = useState("")
     const [quries, setQuries] = useState("")
     const handleClicked = () => {
@@ -21,6 +24,7 @@ function Enquire() {
             Name: name,
             WhatsappNumber: phno,
             MailId: mail,
+            Country: country,
             Quries: quries
         }
         console.log(data)
@@ -29,7 +33,9 @@ function Enquire() {
             setPhno('');
             setMail('');
             setQuries('');
+            setCountry('');
         })
+        setOpened(false)
     }
 
     return (
@@ -49,7 +55,24 @@ function Enquire() {
                             <input type='text' name='name' placeholder='Name' id='inputItem' onChange={(e) => { setName(e.target.value) }} />
                             <input type='number' placeholder='Whatsapp number' id='inputItem' onChange={(e) => { setPhno(e.target.value) }} />
                             <input type='email' placeholder='Email Id' id='inputItem' onChange={(e) => { setMail(e.target.value) }} />
-                            <textarea id='textAreaItem' placeholder='write your quries here ...' onChange={(e) => { setQuries(e.target.value) }} />
+                            <Select
+                                className='dropdownContainer'
+                                value={country}
+                                onChange={(e) => { setCountry(e.target.value) }}
+                                displayEmpty
+                                inputProps={{ 'aria-label': 'Without label' }}
+
+                            >
+                                <MenuItem value="">
+                                    <p className='MenuLabelText'>Select your country</p>
+                                </MenuItem>
+                                <MenuItem value="India">India</MenuItem>
+                                <MenuItem value="Australia">Australia</MenuItem>
+                                <MenuItem value="Africa">Africa</MenuItem>
+                                <MenuItem value="America">America</MenuItem>
+                                <MenuItem value="Malaysia">Malaysia</MenuItem>
+                            </Select>
+                            <textarea id='textAreaItem' placeholder='Write your query here ...' onChange={(e) => { setQuries(e.target.value) }} />
                             <Button variant='contained' id='formButton' onClick={ButtonClicked}>Send</Button>
                         </form>
                     </div>

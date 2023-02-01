@@ -9,7 +9,7 @@
     flex-direction: row-reverse;
     position: relative;
     width: 100%;
-    height: 348px;
+    height: 412px;
 }
 
 .enquireContainer {
@@ -77,7 +77,7 @@
 
 .enquireFormContainer form #inputItem {
     border: 1px solid #1976d2;
-    /* outline: 1px solid #fbfbfb; */
+    font-size: 14px !important;
 
 }
 
@@ -93,7 +93,7 @@
 
 #inputItem {
     border: 1px solid grey;
-    padding: 7px 5px;
+    padding: 9px 5px;
     width: 90%;
     border-radius: 7px;
     margin-bottom: 20px;
@@ -102,6 +102,7 @@
 #textAreaItem {
     border: 1px solid #1976d2;
     width: 90%;
+    font-size: 15px;
     border-radius: 7px;
     padding: 10px 9px;
     margin-bottom: 20px;
@@ -120,7 +121,47 @@
 .falseEnquireFormContainer Button{
     display: none;
 }
- 
+.dropdownContainer {
+    width: 90% !important;
+    margin-bottom: 20px;
+    border-radius: 7px !important;
+    height: 41px;
+
+}
+.dropdownContainer .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #1976d2 !important;
+}
+
+.dropdownContainer .MuiOutlinedInput-notchedOutline:focus{
+    outline: 1px solid #0066cc;
+    box-shadow: 0px 0px 1px 1px #1976d2;
+}
+.enquireFormContainer .dropdownContainer {
+
+    display: block;
+}
+.falseEnquireFormContainer .dropdownContainer{
+    display: none;
+}
+.MenuLabelText{
+    position: relative;
+    top: -2px;
+    font-size: 15px;
+    left: -9px;
+    color: #757575;
+}
+.MuiPaper-root {
+    min-width: 288px !important;
+    right: 61px !important;
+    margin: -27px 0 0 -27px;
+    z-index: 3;
+    /* left: -20px !important; */
+}
+.MuiSelect-select {
+    position: relative;
+    top: -6.5px !important;
+}
+
 
 
 @media(max-width:426px){
