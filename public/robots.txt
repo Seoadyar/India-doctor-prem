@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
-SiteMap: https://doctorprem.com/siteMap.xml                                                                                                                                                                                        
+Allow : /
+SiteMap: https://doctorprem.com/sitemap_index.xml                                                                                                                                                                                      
