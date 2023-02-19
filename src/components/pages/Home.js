@@ -369,7 +369,7 @@ function Home() {
       <div className="test_main_cont_bg">
         <div className="main_titile_cont" data-aos="fade-up">
           <div className="specs_title tes1">
-            <h2>Testimonials</h2>
+            <h2>Patient Appreciation</h2>
             <p></p>
           </div>
         </div>
