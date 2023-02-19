@@ -163,7 +163,7 @@ function Home() {
           <div className="counts_1">
             <p>
               {" "}
-              <CountUp duration={7} className="counter" end="823" />
+              <CountUp duration={7} className="counter" end="843" />
             </p>
 
             <p>All-On-4 and All-On-6</p>
@@ -171,14 +171,14 @@ function Home() {
           <div className="counts_1">
             <p>
               {" "}
-              <CountUp duration={7} className="counter" end="6000" />
+              <CountUp duration={7} className="counter" end="6020" />
             </p>
             <p>Implants Placed</p>
           </div>
           <div className="counts_1">
             <p>
               {" "}
-              <CountUp duration={7} className="counter" end="6800" />
+              <CountUp duration={7} className="counter" end="6850" />
             </p>
             <p>Happy Smiles</p>
           </div>
