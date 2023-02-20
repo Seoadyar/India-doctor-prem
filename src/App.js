@@ -13,6 +13,7 @@ const TRACKING_ID = "G-JCKC9E5BH5"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 const Home = React.lazy(() => import("./components/pages/Home"));
+const ThankYou = React.lazy(() => import("./components/pages/ThankYou"));
 const Footer = React.lazy(() => import("./components/pages/Footer"));
 const AllOn4 = React.lazy(() => import("./components/pages/AllOn4"));
 const AllOn6 = React.lazy(() => import("./components/pages/AllOn6"));
@@ -193,6 +194,14 @@ function App() {
               element={
                 <React.Suspense fallback={<Spinner />}>
                   <InternationalPatient />
+                </React.Suspense>
+              }
+            />
+              <Route
+              path="/thankyou"
+              element={
+                <React.Suspense fallback={<Spinner />}>
+                  <ThankYou />
                 </React.Suspense>
               }
             />

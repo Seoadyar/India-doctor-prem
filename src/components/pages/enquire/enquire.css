@@ -160,6 +160,20 @@ form .MuiSelect-select {
     position: relative;
     top: -6.5px !important;
 }
+.enquireSpinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 3;
+    height:100%;
+    width: 100%;
+    position: absolute;
+top: 0;
+right: 0;
+ 
+
+}
 
 
 

@@ -5,8 +5,12 @@ import { Button } from '@mui/material';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import Spinner from '../Spinner';
 
 function Enquire() {
+    const navigate = useNavigate();
+    const [navigateLoad, setNavigateLoad] = useState(false)
     const [open, setOpened] = useState(false);
 
     const [name, setName] = useState("")
@@ -20,6 +24,7 @@ function Enquire() {
 
     const ButtonClicked = (e) => {
         e.preventDefault();
+        setNavigateLoad(true)
         const data = {
             Name: name,
             WhatsappNumber: phno,
@@ -34,51 +39,72 @@ function Enquire() {
             setMail('');
             setQuries('');
             setCountry('');
+
+            if (res.status == 200) {
+                setNavigateLoad(false)
+                navigate("/thankyou")
+            }
+
         })
         setOpened(false)
+
     }
 
     return (
         <div>
-            <div className='EnquireMainContainerOne'>
-                <div className='EnquireMainContainer'>
-                    <div className='enquireContainer' onClick={handleClicked}>
-                        <div className='textContainer'>
-                            <p><FiMail className='mailIcon' /></p>
-                            <p>Contact</p>
-                            <p>Us</p>
+            {
+                navigateLoad ?
+                    (
+                        <div className='enquireSpinner'>
+                            <Spinner />
                         </div>
-                    </div>
+                    )
+                    :
+                    (
+                        <div className='EnquireMainContainerOne'>
+                            <div className='EnquireMainContainer'>
+                                <div className='enquireContainer' onClick={handleClicked}>
+                                    <div className='textContainer'>
+                                        <p><FiMail className='mailIcon' /></p>
+                                        <p>Contact</p>
+                                        <p>Us</p>
+                                    </div>
+                                </div>
 
-                    <div className={open ? 'enquireFormContainer' : 'falseEnquireFormContainer'}>
-                        <form>
-                            <input type='text' name='name' placeholder='Name' id='inputItem' onChange={(e) => { setName(e.target.value) }} />
-                            <input type='number' placeholder='Whatsapp number' id='inputItem' onChange={(e) => { setPhno(e.target.value) }} />
-                            <input type='email' placeholder='Email Id' id='inputItem' onChange={(e) => { setMail(e.target.value) }} />
-                            <Select
-                                className='dropdownContainer'
-                                value={country}
-                                onChange={(e) => { setCountry(e.target.value) }}
-                                displayEmpty
-                                inputProps={{ 'aria-label': 'Without label' }}
+                                <div className={open ? 'enquireFormContainer' : 'falseEnquireFormContainer'}>
+                                    <form>
+                                        <input type='text' name='name' placeholder='Name' id='inputItem' onChange={(e) => { setName(e.target.value) }} />
+                                        <input type='number' placeholder='Whatsapp number' id='inputItem' onChange={(e) => { setPhno(e.target.value) }} />
+                                        <input type='email' placeholder='Email Id' id='inputItem' onChange={(e) => { setMail(e.target.value) }} />
+                                        <Select
+                                            className='dropdownContainer'
+                                            value={country}
+                                            onChange={(e) => { setCountry(e.target.value) }}
+                                            displayEmpty
+                                            inputProps={{ 'aria-label': 'Without label' }}
 
-                            >
-                                <MenuItem value="">
-                                    <p className='MenuLabelText'>Select your country</p>
-                                </MenuItem>
-                                <MenuItem value="India">India</MenuItem>
-                                <MenuItem value="Australia">Australia</MenuItem>
-                                <MenuItem value="Africa">Africa</MenuItem>
-                                <MenuItem value="America">America</MenuItem>
-                                <MenuItem value="Malaysia">Malaysia</MenuItem>
-                            </Select>
-                            <textarea id='textAreaItem' placeholder='Write your query here ...' onChange={(e) => { setQuries(e.target.value) }} />
-                            <Button variant='contained' id='formButton' onClick={ButtonClicked}>Send</Button>
-                        </form>
-                    </div>
+                                        >
+                                            <MenuItem value="">
+                                                <p className='MenuLabelText'>Select your country</p>
+                                            </MenuItem>
+                                            <MenuItem value="India">India</MenuItem>
+                                            <MenuItem value="Australia">Australia</MenuItem>
+                                            <MenuItem value="Africa">Africa</MenuItem>
+                                            <MenuItem value="America">America</MenuItem>
+                                            <MenuItem value="Malaysia">Malaysia</MenuItem>
+                                        </Select>
+                                        <textarea id='textAreaItem' placeholder='Write your query here ...' onChange={(e) => { setQuries(e.target.value) }} />
+                                        <Button variant='contained' id='formButton' onClick={ButtonClicked}>Send</Button>
+                                    </form>
+                                </div>
 
-                </div>
-            </div>
+                            </div>
+                        </div>
+                    )
+
+
+            }
+
         </div>
     )
 }
