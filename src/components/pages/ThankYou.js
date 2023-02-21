@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../css/thankyou.css'
 import verify from '../Assests/verify.gif'
 import { Button } from '@mui/material'
@@ -6,6 +6,11 @@ import {useNavigate} from 'react-router-dom'
 
 function ThankYou() {
     const navigate = useNavigate();
+    useEffect(()=>{
+        setTimeout(()=>{
+            navigate("/")
+        }, 5000)
+    })
     return (
         <div className='thankyouHolder'>
             <div className='thankyouHolderContainer'>

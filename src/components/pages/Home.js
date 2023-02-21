@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../css/Home.css";
 import YouTubeData from "./you-tube-data/YouTubeData";
 
-import videobanner1 from "../Assests/videobanner1.mp4";
-
 import clients from "../Assests/clients.jpg";
 
 import spec1 from "../Assests/all-on-4-treatment.png";
@@ -14,7 +12,6 @@ import spec5 from "../Assests/sinus-lift.png";
 import spec6 from "../Assests/tooth-in-a-day.png";
 import spec7 from "../Assests/prosthesis-types.png";
 
-import DChoose1 from "../Assests/ChoosseUs/DChoose1.png";
 import DChoose2 from "../Assests/ChoosseUs/DChoose2.png";
 import DChoose3 from "../Assests/ChoosseUs/DChoose3.png";
 import DChoose4 from "../Assests/ChoosseUs/DChoose4.png";
@@ -24,7 +21,6 @@ import DChoose7 from "../Assests/ChoosseUs/DChoose7.png";
 import DChoose8 from "../Assests/ChoosseUs/DChoose8.png";
 import P4 from "../Assests/P4.jpg";
 
-import chooose1 from "../Assests/ChoosseUs/chooose1.png";
 import chooose2 from "../Assests/ChoosseUs/chooose2.png";
 import chooose3 from "../Assests/ChoosseUs/chooose3.png";
 import chooose4 from "../Assests/ChoosseUs/chooose4.png";
@@ -33,23 +29,16 @@ import chooose6 from "../Assests/ChoosseUs/chooose6.png";
 import chooose7 from "../Assests/ChoosseUs/chooose7.png";
 import chooose8 from "../Assests/ChoosseUs/chooose8.png";
 
-import banner1 from "../Assests/banner1.png";
-import banner2 from "../Assests/banner2.png";
-import banner3 from "../Assests/banner3.png";
-import banner4 from "../Assests/banner4.png";
-import banner5 from "../Assests/banner5.png";
-import banner6 from "../Assests/banner3.png";
-import banner7 from "../Assests/banner7.png";
-import WYCU from "../Assests/WYCU.png";
+import banner1 from "../Assests/banner1.jpg";
+import banner2 from "../Assests/banner2.jpg";
+import banner3 from "../Assests/banner3.jpg";
+import banner4 from "../Assests/banner4.jpg";
+import banner5 from "../Assests/banner5.jpg";
+
 import Drprem from "../Assests/Drprem.png";
-
-
 
 //react counter
 import CountUp from "react-countup";
-
-//boostrap
-import Carousel from "react-bootstrap/Carousel";
 
 // swiper js
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -147,13 +136,10 @@ function Home() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Drprem} className="why_choose_img home_banner_img " />
+            <img src={banner5} className="why_choose_img home_banner_img " />
           </SwiperSlide>
 
-          <SwiperSlide>
-            {" "}
-            <img src={banner7} className="why_choose_img home_banner_img" />
-          </SwiperSlide>
+         
         </Swiper>
       </div>
 
