@@ -119,20 +119,20 @@ function Home() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={banner1} className="why_choose_img home_banner_img" />
+            <img src={banner4} className="why_choose_img home_banner_img" />
           </SwiperSlide>
 
           <SwiperSlide>
             {" "}
-            <img src={banner2} className="why_choose_img home_banner_img " />
+            <img src={banner3} className="why_choose_img home_banner_img " />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={banner3} className="why_choose_img home_banner_img" />
+            <img src={banner1} className="why_choose_img home_banner_img" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={banner4} className="why_choose_img home_banner_img" />
+            <img src={banner2} className="why_choose_img home_banner_img" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
