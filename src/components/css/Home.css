@@ -264,12 +264,15 @@ slider */
 /* vlog */
 .vlog {
   margin: 0;
+  background-color: orange !important;
 }
 
 .vlog_slider_cont {
     display: flex;
     justify-content: center;
-    margin: 53px 0;
+    margin: 0;
+    padding: 76px 0;
+    background-color: orange;
 }
 .vlog_main_slider_cont {
     display: flex;
