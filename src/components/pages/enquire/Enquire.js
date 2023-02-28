@@ -7,6 +7,9 @@ import MenuItem from '@mui/material/MenuItem';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Spinner from '../Spinner';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function Enquire() {
     const navigate = useNavigate();
@@ -24,34 +27,62 @@ function Enquire() {
 
     const ButtonClicked = (e) => {
         e.preventDefault();
-        setNavigateLoad(true)
-        const data = {
-            Name: name,
-            WhatsappNumber: phno,
-            MailId: mail,
-            Country: country,
-            Quries: quries
+        console.log("ahi")
+        if (name == "" || mail == "" || country == "" || phno == "" || quries == "") {
+            toast.error('Invalid Details', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                });
         }
-        console.log(data)
-        axios.post('https://sheet.best/api/sheets/a8617e93-8feb-4882-bd14-1df238470a19', data).then((res) => {
-            setName('');
-            setPhno('');
-            setMail('');
-            setQuries('');
-            setCountry('');
-
-            if (res.status == 200) {
-                setNavigateLoad(false)
-                navigate("/thankyou")
+        else{
+            setNavigateLoad(true)
+            const data = {
+                Name: name,
+                WhatsappNumber: phno,
+                MailId: mail,
+                Country: country,
+                Quries: quries
             }
-
-        })
+            console.log(data)
+            axios.post('https://sheet.best/api/sheets/d5f8f0b6-8f44-4dad-add8-2d29ff3aaa18', data).then((res) => {
+                setName('');
+                setPhno('');
+                setMail('');
+                setQuries('');
+                setCountry('');
+    
+                if (res.status == 200) {
+                    setNavigateLoad(false)
+                    navigate("/thankyou")
+                }
+    
+            })
+        }
+      
         setOpened(false)
 
     }
 
     return (
         <div>
+            <ToastContainer
+                position="top-right"
+                autoClose={3000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="colored"
+            />
             {
                 navigateLoad ?
                     (
