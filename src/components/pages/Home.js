@@ -29,11 +29,17 @@ import chooose6 from "../Assests/ChoosseUs/chooose6.png";
 import chooose7 from "../Assests/ChoosseUs/chooose7.png";
 import chooose8 from "../Assests/ChoosseUs/chooose8.png";
 
-import banner1 from "../Assests/banner1.jpg";
-import banner2 from "../Assests/banner2.jpg";
-import banner3 from "../Assests/banner3.jpg";
-import banner4 from "../Assests/banner4.jpg";
-import banner5 from "../Assests/banner5.jpg";
+// import banner1 from "../Assests/banner1.jpg";
+// import banner2 from "../Assests/banner2.jpg";
+// import banner3 from "../Assests/banner3.jpg";
+// import banner4 from "../Assests/banner4.jpg";
+// import banner5 from "../Assests/banner5.jpg";
+
+import hbanner1 from "../Assests/Home-banners/hbanner1.jpg";
+import hbanner2 from "../Assests/Home-banners/hbanner2.jpg";
+import hbanner3 from "../Assests/Home-banners/hbanner3.jpg";
+import hbanner4 from "../Assests/Home-banners/hbanner4.jpg";
+import hbanner5 from "../Assests/Home-banners/hbanner5.jpg";
 
 import Drprem from "../Assests/Drprem.png";
 
@@ -119,24 +125,24 @@ function Home() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={banner4} className="why_choose_img home_banner_img" />
+            <img src={hbanner1} className="why_choose_img home_banner_img" />
           </SwiperSlide>
 
           <SwiperSlide>
             {" "}
-            <img src={banner3} className="why_choose_img home_banner_img " />
+            <img src={hbanner2} className="why_choose_img home_banner_img " />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={banner1} className="why_choose_img home_banner_img" />
+            <img src={hbanner3} className="why_choose_img home_banner_img" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={banner2} className="why_choose_img home_banner_img" />
+            <img src={hbanner4} className="why_choose_img home_banner_img" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={banner5} className="why_choose_img home_banner_img " />
+            <img src={hbanner5} className="why_choose_img home_banner_img " />
           </SwiperSlide>
 
          
