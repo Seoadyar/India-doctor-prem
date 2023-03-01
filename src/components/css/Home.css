@@ -264,7 +264,8 @@ slider */
 /* vlog */
 .vlog {
   margin: 0;
-  background-color: orange !important;
+  /* background-color: orange !important; */
+  background-image: url('../Assests//all_bg.jpg') !important;
 }
 
 .vlog_slider_cont {
@@ -272,7 +273,8 @@ slider */
     justify-content: center;
     margin: 0;
     padding: 76px 0;
-    background-color: orange;
+    /* background-color: orange; */
+    background-image: url('../Assests//all_bg.jpg') !important;
 }
 .vlog_main_slider_cont {
     display: flex;
@@ -531,7 +533,7 @@ hospital images */
         padding-bottom: 0;
     }
     .specs_title.specs_title {
-        margin-top: 14px;
+        padding-top: 14px;
     }
     .why_choose_cont {
         margin-top:0px;
@@ -722,6 +724,10 @@ hospital images */
     .choose_title_cont {
         padding-bottom: 2px;
     }
+  .knowMoreText{
+   margin-top: 0 !important;
+   padding-top: 70px !important; 
+  }
     
 }
 

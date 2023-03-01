@@ -29,11 +29,11 @@ import chooose6 from "../Assests/ChoosseUs/chooose6.png";
 import chooose7 from "../Assests/ChoosseUs/chooose7.png";
 import chooose8 from "../Assests/ChoosseUs/chooose8.png";
 
-// import banner1 from "../Assests/banner1.jpg";
-// import banner2 from "../Assests/banner2.jpg";
-// import banner3 from "../Assests/banner3.jpg";
-// import banner4 from "../Assests/banner4.jpg";
-// import banner5 from "../Assests/banner5.jpg";
+import banner1 from "../Assests/banner1.jpg";
+import banner2 from "../Assests/banner2.jpg";
+import banner3 from "../Assests/banner3.jpg";
+import banner4 from "../Assests/banner4.jpg";
+import banner5 from "../Assests/banner5.jpg";
 
 import hbanner1 from "../Assests/Home-banners/hbanner1.jpg";
 import hbanner2 from "../Assests/Home-banners/hbanner2.jpg";
@@ -74,7 +74,7 @@ function Home() {
 
   //youtube videos data
 
-  const [currentYouTubeVideo, setCurrentYouTubeVideo] = useState("vrMxikM3qR8");
+  const [currentYouTubeVideo, setCurrentYouTubeVideo] = useState("zwNjlkg7uak");
 
   //    useEffect(()=>{
 
@@ -125,20 +125,28 @@ function Home() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={hbanner1} className="why_choose_img home_banner_img" />
+            <img src={banner5} className="why_choose_img home_banner_img" />
           </SwiperSlide>
 
           <SwiperSlide>
             {" "}
-            <img src={hbanner2} className="why_choose_img home_banner_img " />
+            <img src={hbanner1} className="why_choose_img home_banner_img " />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={hbanner3} className="why_choose_img home_banner_img" />
+            <img src={banner4} className="why_choose_img home_banner_img" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={hbanner4} className="why_choose_img home_banner_img" />
+            <img src={hbanner2} className="why_choose_img home_banner_img" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={banner2} className="why_choose_img home_banner_img " />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={hbanner4} className="why_choose_img home_banner_img " />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
@@ -178,14 +186,14 @@ function Home() {
       </div>
 
       {/* why choose us */}
-      <div className="main_titile_cont firsts_main_titile_cont choose_title_cont whychooseusspacing ">
+      {/* <div className="main_titile_cont firsts_main_titile_cont choose_title_cont whychooseusspacing ">
         <div className="specs_title chooseUs" data-aos="fade-up">
           <h1>Why Choose Implants By Doctor Prem</h1>
           <p></p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="why_choose_cont">
+      {/* <div className="why_choose_cont">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -199,13 +207,13 @@ function Home() {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
-        >
+        > */}
           {/* <SwiperSlide className='chooseUs_cont_box'>
                         <img src={WYCU} className='why_choose_img Dwhy_choose_img' />
                         <img src={WYCU} className='why_choose_img Mwhy_choose_img' />
                         <p>The experience, technological expertise, and skill in All On 4 implants</p>
                     </SwiperSlide> */}
-          <SwiperSlide className="chooseUs_cont_box">
+          {/* <SwiperSlide className="chooseUs_cont_box">
             <img src={DChoose2} className="why_choose_img Dwhy_choose_img" />
             <img src={chooose2} className="why_choose_img Mwhy_choose_img" />
             <p> Certified medical professionals and reliant clinics</p>
@@ -246,11 +254,11 @@ function Home() {
             </p>
           </SwiperSlide>
         </Swiper>
-      </div>
+      </div> */}
 
       {/* vlog */}
       <div className="main_titile_cont">
-        <div className="specs_title vlog" data-aos="fade-up">
+        <div className="specs_title vlog knowMoreText" data-aos="fade-up">
           <h2>Know more</h2>
           <p></p>
         </div>
