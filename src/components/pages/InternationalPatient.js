@@ -6,6 +6,7 @@ import Phases_involved from "../Assests/Tourism/dental-tourism.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "../css/Temp.css";
+import '../css/inforgrapic.css'
 
 // ------turisum imgaes------------
 // ----------Food---------
@@ -44,7 +45,12 @@ import M1 from "../Assests/Tourism/ECR/M1.jpg";
 import SS1 from "../Assests/Tourism/ECR/SS1.jpg";
 import CB1 from "..//Assests/Tourism/ECR/CB1.jpg";
 import D2 from "../Assests/Tourism/ECR/D2.jpg";
-
+//------infography------
+import phase1 from '../Assests/infograhy/phase1.jpg'
+import phase2 from '../Assests/infograhy/phase2.jpg'
+import phase3 from '../Assests/infograhy/phase3.jpg'
+import phase4 from '../Assests/infograhy/phase4.jpg'
+import phase5 from '../Assests/infograhy/phase5.jpg'
 import "../css/InternationalPatient.css";
 import { Helmet } from "react-helmet";
 
@@ -78,7 +84,96 @@ function walkThroughContent() {
 
       <h2 className="intern_pat_cont2_title">Phases involved </h2>
       <div className="intern_pat_cont2">
-        <img src={Phases_involved} alt='Dental tourism in India' />
+        <div>
+          <div className='inforgrapyContainer'>
+            <div className='inforgrapyContainerBox'>
+              <div className='inforgrapyContainerBoxItem'>
+                <img src={phase1} />
+                <ol>
+                  <li>
+                    Online chat
+                  </li>
+                  <li>Email: prem.vale@premolar.org</li>
+                  <li>Whatsapp call or text at: <a href='tel:8939111172'>+91-8939111172</a></li>
+                  <li>Upon contact, our doctors will review your requirements and reach out to you
+                    in order to ensure they have a clear understanding of your case. A telephone
+                    or video call may be arranged at a time of convenience to ensure complete
+                    clarity. This will also allow us to give you an accurate estimate of treatment
+                    costs and fees.</li>
+                  <li>Upon agreement of the treatment procedure along with discussion of the costs
+                    and fees, we will proceed to the next step.</li>
+                </ol>
+              </div>
+              <div className='inforgrapyContainerBoxItem'>
+                <img src={phase2} />
+                <ol>
+                  <li>Here we can identify convenient dates for your treatment, following which you
+                    will need to obtain an Indian medical visa as well as book flights to the
+                    Chennai International Airport (Airport Code: MAA). Comprehensive and
+                    detailed information regarding the Indian Medical Visa as well as guidelines
+
+                    on obtaining one can be found
+                    at <a href='https://indianvisaonline.gov.in/visa/index.html' >https://indianvisaonline.gov.in/visa/index.html</a>
+                  </li>
+                  <li>
+                    We can also assist you with booking accommodation with some of our hotel
+                    partners at lower pre-negotiated rates.
+                  </li>
+                </ol>
+              </div>
+              <div className='inforgrapyContainerBoxItem'>
+                <img src={phase3} />
+                <ol>
+                  <li>
+                    Upon your arrival in Chennai, our hospitality manager will meet you and any
+                    accompanying friends/family at the airport and transfer you to your
+                    accommodation. Any requirements you may have or any information you
+                    might require will be addressed by our hospitality manager.
+                  </li>
+                  <li>
+                    We will also provide you with several other services while you are here
+                    including:
+                  </li>
+                  <li>
+                    Complimentary transfers between the airport and your accommodation (both
+                    ways).
+                  </li>
+                  <li>
+                    A local mobile phone number so you can contact local establishments easily
+                    with internet access while you are on the move.
+                  </li>
+                </ol>
+              </div>
+              <div className='inforgrapyContainerBoxItem'>
+                <img src={phase4} />
+                <ol>
+                  <li>
+                    Once you arrive at our clinic, we will perform a comprehensive clinical
+                    evaluation and finalize your treatment plan. Our doctors are very experienced
+                    and will explain the options available very systematically. Our staff will ensure
+                    you receive the utmost comfort and care during your treatment stages.
+                  </li>
+                  <li>
+                    The duration of the treatment will vary on a case to case basis. In your time
+                    outside of treatment, we invite you to explore and experience all that the city
+                    has to offer (while following your doctor’s guidelines of course!)
+                  </li>
+                </ol>
+              </div>
+              <div className='inforgrapyContainerBoxItem'>
+                <img src={phase5} />
+                <ol>
+                  <li>
+                    After completing your treatment, our manager will guide you to the airport on
+                    your date of departure so you may safely travel home with your new set of
+                    pristine teeth!
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   );
@@ -234,7 +329,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={food3} alt='Food and shopping in chennai'/>
+                  <img src={food3} alt='Food and shopping in chennai' />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={food4} />
@@ -324,7 +419,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={things1} alt='Food and shopping in chennai-2'/>
+                  <img src={things1} alt='Food and shopping in chennai-2' />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={things2} />
@@ -365,7 +460,7 @@ function tourismContent() {
                 data-aos="fade-up"
               >
                 <SwiperSlide>
-                  <img src={ST} alt='Dental tourism places to visit'/>
+                  <img src={ST} alt='Dental tourism places to visit' />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={M1} />
@@ -453,9 +548,9 @@ function InternationalPatient() {
     <React.Fragment>
       <Helmet>
         <title>
-        Dental Tourism in India | Best Dental Implants in India
+          Dental Tourism in India | Best Dental Implants in India
         </title>
-        <meta name='description' content='We are seeing more and more patients coming to us from India and overseas to have their best dental implant treatments performed by Dr.Prem Alex Lawrence.'/>
+        <meta name='description' content='We are seeing more and more patients coming to us from India and overseas to have their best dental implant treatments performed by Dr.Prem Alex Lawrence.' />
       </Helmet>
       <video
         src="https://firebasestorage.googleapis.com/v0/b/apollo-dental.appspot.com/o/International%20patients.mp4?alt=media&token=162f61e7-3d4d-42f5-9adb-5476fe19d7f4"
