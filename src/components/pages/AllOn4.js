@@ -9,7 +9,7 @@ function AllOn6() {
     <div>
       <Helmet>
         <title>
-          All On 4 Dental Implants Treatment in Chennai - Doctor Prem
+          All On 4 Dental Implants Treatment Cost in Chennai - Doctor Prem
         </title>
         <meta name='description' content='All-On-4 is a dental implant treatment for giving fixed teeth to the patient in which “All” teeth are being supported “On 4” dental implants.' />
       </Helmet>
