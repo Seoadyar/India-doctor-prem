@@ -13,7 +13,7 @@ function AllOn6() {
     <div>
       <Helmet>
         <title>
-          All On 6 Dental Implants Treatment in Chennai - Doctor Prem
+          All On 6 Dental Implants Treatment Cost in Chennai - Doctor Prem
         </title>
         <meta
           name="description"
